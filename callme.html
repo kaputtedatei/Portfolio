@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="about" href="about.html">
+  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="column-header" id="header1">
+    <h1>:))</h1>
+  </div>
+
+  <div class="container-callme" style="height: 130vh;">
+    <a href="tel:+4917699428699" class="row phone-row">
+      <div class="row-content">
+        <h1>Telefon</h1>
+      </div>
+    </a>
+
+    <a href="mailto:theresa.richter.77@gmail.com" class="row mail-row">
+      <div class="row-content">
+        <h1>E-Mail</h1>
+      </div>
+    </a>
+
+    <a href="https://instagram.com/kaputtedatei" target="_blank" class="row website-row">
+      <div class="row-content">
+        <h1>Instagram</h1>
+      </div>
+    </a>
+
+        <a href="https://instagram.com/kaputtedatei" target="_blank" class="row website-row">
+      <div class="row-content">
+        <h1>Shutterstock</h1>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="buttons-container">
+    <div class="impressum-button">
+      <h2>impressum</h2>
+    </div>
+    <div class="about-button">
+      <h2>about</h2>
+    </div>
+    <div class="arbeiten-button">
+      <h3>arbeiten</h3>
+    </div>
+  </div> 
+
+
+ <script>
+    const aboutButton = document.querySelector('.about-button');
+    if (aboutButton) {
+      aboutButton.addEventListener('click', () => {
+        window.location.href = 'about.html';
+      });
+    }
+
+
+    const arbeitenButton = document.querySelector('.arbeiten-button');
+    if (arbeitenButton) {
+      arbeitenButton.addEventListener('click', () => {
+        window.location.href = 'index.html';
+      });
+    }
+
+
+    const impressumButton = document.querySelector('.impressum-button');
+    if (impressumButton) {
+      impressumButton.addEventListener('click', () => {
+        window.location.href = 'impressum.html';
+      });
+    }
+  </script>
+
+
+
+  <script>
+    // Theme-Wechsel Script (same as index.html)
+    const root = document.documentElement;
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    root.setAttribute('data-theme', savedTheme);
+  </script>
+</body>
+</html>

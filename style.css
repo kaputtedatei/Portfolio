@@ -1,0 +1,632 @@
+/* Layout grundlegend */
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Hedvig Letters Sans;
+  color: #000000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+/* Schrift */
+
+h1 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+
+h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000 !important;
+}
+
+h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+  font-family: Hedvig Letters Sans;
+  font-size: 17px;
+  line-height: 23.5px;
+}
+
+
+
+
+
+
+
+
+
+/* Columns */
+
+.column-content {
+  padding: 25px;
+  position: relative;
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+
+.column-header,
+.detail-header {
+  background-color: #00f;
+  padding-left: 30px !important;
+  padding: 10px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+
+#col1 {
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+
+#col2 .column-content {
+  padding: 0px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 400px;
+  box-sizing: border-box;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.grid-item .dynamic-image {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0;
+  z-index: 1;
+  transition: opacity 0s ease;
+}
+
+.grid-item .hover-image {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: crosshair;
+}
+
+.grid-item:hover .dynamic-image:not(.hover-image) {
+  opacity: 0;
+}
+
+.grid-item:hover .hover-image {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/* Timeline */
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item {
+  display: flex;
+  text-align: left;
+  background: transparent;
+  cursor: crosshair;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  color: inherit;
+  transition: 0.4s ease;
+  border: none;
+}
+
+.timeline-item:hover {
+  background: rgb(206, 206, 206);
+  transition: 0.0s ease;
+  color: #fff;
+  line-height: 30px;
+  border-radius: 8px;
+}
+
+.timeline-item:hover::after {
+  content: attr(data-year);
+  margin-left: 10px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.timeline-item.active {
+  background: #a0a0a0;
+  color: #fff;
+  line-height: 30px;
+  border-radius: 8px;
+  transition: 0.4s ease;
+}
+
+.index-detail {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+/* ??? */
+
+/* Abstand zwischen Paragraphen */
+.gap {
+    height: 1em;
+}
+
+/* Textfeld in Index Detailansicht nicht volle Breite Zeile */
+.index-detail p,
+.index-detail h2 {
+  max-width: 58ch;
+}
+
+figcaption {
+  max-width: 80ch;
+}
+
+
+/* Underline Klasse (Warum?) */
+.underlined {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: inherit;
+}
+
+
+/* Scrollbar Browser ausblenden */
+.column {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+
+  
+/* Firefox */
+scrollbar-width: none; 
+/* Internet Explorer und Edge */
+-ms-overflow-style: none;  
+}
+
+/* Chrome, Safari, Edge (Chromium) */
+.column::-webkit-scrollbar {
+  display: none;
+}
+
+
+::selection {
+  background-color: #000; /* z.B. #3498db */
+  color: #ff0; /* Textfarbe auf Weiß für Kontrast */
+}
+
+
+
+
+
+
+
+/* Detailspalte */
+.detail-column {
+  grid-column: 2 / span 2;
+  display: none;
+  border-left: 2px solid #00f;
+}
+
+.detail-column.active {
+  display: flex;    
+}
+
+.col-hide {
+  display: none !important;
+}
+
+.detail-header {
+  top: 0;
+  display: flex;
+  position: sticky;
+  background-color: #00f;
+  padding: 10px 20px 10px 25px;
+  z-index: 5;
+  align-items: center;
+}
+
+.detail-header h2 {
+  color: inherit !important;
+}
+
+.close-btn {
+  padding: 0 12px;
+  background: #00f;
+  border: none;
+  cursor: w-resize;
+  justify-self: flex-start;
+  margin: 0 10px 0 -10px;
+  color: rgb(255, 104, 104) !important;
+}
+
+.close-btn:hover {
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.image-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.image-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.image-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Index Sortierfunktion */
+
+#col1,
+.column-content {
+  --column-padding: 25px;
+}
+
+#sortBar {
+  position: relative;
+  padding: 25px;
+  box-sizing: border-box;
+  z-index: 50;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  bottom: 0 !important;
+}
+
+.sort-btn {
+  font-family: 'Hedvig Letters Sans';
+  font-size: 16px;
+  padding: 2px 6px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.sort-btn:hover {
+  background-color: rgb(255, 255, 255) !important;
+  color: #000 !important;
+}
+
+.sort-btn.active {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+
+
+
+/* Wiggle Animation */
+@keyframes wiggle {
+   0%, 100% {
+    transform: rotate(0deg);
+   }
+   25% {
+    transform: rotate(-2deg);
+   }
+   75% {
+    transform: rotate(2deg);
+   }
+ }
+
+.wiggle {
+  animation: wiggle 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Mobile Responsive Design */
+    @media (max-width: 1000px) {
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin-top: 0 !important;
+        height: auto;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+      }
+
+      h1, h2, h3, p, .timeline-item, figcaption, .close-btn, .detail-header h1, .index-detail {
+        font-size: 22px !important;
+      }
+
+      .container {
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto !important;
+        width: 100% !important;
+      }
+
+
+      .container-callme {
+        margin-top: 50px !important;
+      }
+
+      /* Verstecke col1 (Arbeiten Spalte) */
+      #col1 {
+        display: none !important;
+      }
+
+      /* col2 wird Hauptinhalt */
+      #col2 {
+        width: 100% !important;
+        height: auto !important;
+        border: none !important;
+        padding: 0 !important;
+      }
+
+      .column-header {
+        display: none !important;
+      }
+
+      #col2 .column-content {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        overflow-y: visible !important;
+      }
+
+      /* Beschriftung der Grid-Items */
+      .grid-item::after {
+        content: attr(data-title) !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        background: rgb(255, 255, 255) !important;
+        color: rgb(0, 0, 0) !important;
+        padding: 10px !important;
+        z-index: 10 !important;
+        font-size: 22px !important;
+      }
+
+      .grid-item img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+      }
+
+      /* Detail-Spalte als Fullscreen Overlay */
+      .detail-column {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100vh !important;
+        display: none !important;
+        z-index: 1000 !important;
+        overflow-y: auto !important;
+        padding: 0 !important;
+      }
+
+      .detail-column.active {
+        display: block !important;
+      }
+
+      .detail-header {
+        background-color: #00f !important;
+        padding: 15px 20px !important;
+        display: flex !important;
+        align-items: center !important;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 1001 !important;
+      }
+
+      .detail-header h1 {
+        color: white !important;
+        margin: 0 !important;
+        flex: 1 !important;
+      }
+
+      .close-btn {
+        background: transparent !important;
+        border: none !important;
+        color: rgb(255, 104, 104) !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-right: 15px !important;
+      }
+
+      .close-btn h3 {
+        margin: 0 !important;
+      }
+
+      #detail-content {
+        padding: 13px !important;
+        overflow-y: visible !important;
+      }
+
+      .index-detail h2 {
+        line-height: 1.4 !important;
+        margin: 50px 0 !important;
+        text-indent: 0 !important;
+      }
+
+      .index-detail figcaption {
+        font-size: 16px !important;
+        margin: 5px 0 40px 0 !important;
+      }
+
+      .image-2,
+      .image-3 {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+        margin: 30px 0 !important;
+      }
+
+      .image-2 > div,
+      .image-3 > div {
+        width: 100% !important;
+      }
+
+      /* Verstecke Hover-Images */
+      .hover-image {
+        display: none !important;
+      }
+
+      /* Mobile About und Impressum Sektionen */
+      .mobile-about-section,
+      .mobile-impressum-section {
+        width: 100% !important;
+        padding: 20px !important;
+        margin-bottom: 60px !important;
+      }
+
+      .mobile-about-section h2,
+      .mobile-impressum-section h2 {
+        line-height: 1.6 !important;
+        margin: 15px 0 !important;
+      }
+
+      .mobile-impressum-section h1 {
+        margin: 15px 0 !important;
+      }
+
+      /* Buttons Container am Ende */
+      .buttons-container {
+        top: 0px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        z-index: 100 !important;
+        height: 50px !important;
+        justify-content: flex-start !important;
+      }
+
+      .buttons-container.collapsed {
+        max-height: 50px !important;
+      }
+
+      /* Verstecke about und impressum buttons auf mobil */
+      .impressum-button,
+      .about-button {
+        display: none !important;
+      }
+
+      /* callme-button schmäler und links */
+      .callme-button {
+        width: 100% !important;
+        text-align: left !important;
+        margin-left: auto !important;
+        background: #00f !important;
+        display: flex !important;
+        align-items: center !important;
+        border-radius: 0 0 8px 8px !important;
+      }
+
+      .callme-button h2 {
+        color: white !important;
+      }
+
+      .arbeiten-button {
+        width: 100% !important;
+        text-align: left !important;
+        margin-left: auto !important;
+        background: rgb(0, 0, 0) !important;
+        display: flex !important;
+        align-items: center !important;
+        border-radius: 0 0 8px 8px !important;
+      }
+
+    }

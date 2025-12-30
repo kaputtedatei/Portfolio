@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Impressum</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="about" href="about.html">
+  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="column-header" id="header1">
+    <h1>:))</h1>
+  </div>
+
+  <div class="container-callme" style="height: 100vh;">
+    <div class="row impressum-row">
+      <div class="row-content">
+        <h1>Theresa Richter <br> Kommunikationsdesignerin</h1>
+        <h1 style="margin-top: 3em">Stephanstraße 2a, 52064 Aachen <br>E-Mail: theresa.richter.77@gmail.com <br> USt-IdNr.: DE456988576</h1>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="buttons-container">
+    <div class="about-button">
+      <h2>about</h2>
+    </div>
+    <div class="arbeiten-button">
+      <h3>arbeiten</h3>
+    </div>
+    <div class="callme-button">
+      <h2>contact me</h2>
+    </div>
+  </div> 
+
+
+ <script>
+    const aboutButton = document.querySelector('.about-button');
+    if (aboutButton) {
+      aboutButton.addEventListener('click', () => {
+        window.location.href = 'about.html';
+      });
+    }
+
+
+    const arbeitenButton = document.querySelector('.arbeiten-button');
+    if (arbeitenButton) {
+      arbeitenButton.addEventListener('click', () => {
+        window.location.href = 'index.html';
+      });
+    }
+
+
+    const impressumButton = document.querySelector('.callme-button');
+    if (impressumButton) {
+      impressumButton.addEventListener('click', () => {
+        window.location.href = 'callme.html';
+      });
+    }
+  </script>
+
+
+
+  <script>
+    // Theme-Wechsel Script (same as index.html)
+    const root = document.documentElement;
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    root.setAttribute('data-theme', savedTheme);
+  </script>
+</body>
+</html>
