@@ -1,0 +1,230 @@
+    @media (max-width: 1000px) {
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin-top: 0 !important;
+        height: auto;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+      }
+
+      h1, h2, h3, p, .timeline-item, figcaption, .close-btn, .detail-header h1, .index-detail {
+        font-size: 22px !important;
+      }
+
+      .container {
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto !important;
+        width: 100% !important;
+      }
+
+
+      .container-callme {
+        margin-top: 50px !important;
+      }
+
+      /* Verstecke col1 (Arbeiten Spalte) */
+      #col1 {
+        display: none !important;
+      }
+
+      /* col2 wird Hauptinhalt */
+      #col2 {
+        width: 100% !important;
+        height: auto !important;
+        border: none !important;
+        padding: 0 !important;
+      }
+
+      .column-header {
+        display: none !important;
+      }
+
+      #col2 .column-content {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        overflow-y: visible !important;
+      }
+
+      /* Beschriftung der Grid-Items */
+      .grid-item::after {
+        content: attr(data-title) !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        background: rgb(255, 255, 255) !important;
+        color: rgb(0, 0, 0) !important;
+        padding: 10px !important;
+        z-index: 10 !important;
+        font-size: 22px !important;
+      }
+
+      .grid-item img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+      }
+
+      /* Detail-Spalte als Fullscreen Overlay */
+      .detail-column {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100vh !important;
+        display: none !important;
+        z-index: 1000 !important;
+        overflow-y: auto !important;
+        padding: 0 !important;
+      }
+
+      .detail-column.active {
+        display: block !important;
+      }
+
+      .detail-header {
+        background-color: #00f !important;
+        padding: 15px 20px !important;
+        display: flex !important;
+        align-items: center !important;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 1001 !important;
+      }
+
+      .detail-header h1 {
+        color: white !important;
+        margin: 0 !important;
+        flex: 1 !important;
+      }
+
+      .close-btn {
+        background: transparent !important;
+        border: none !important;
+        color: rgb(255, 104, 104) !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-right: 15px !important;
+      }
+
+      .close-btn h3 {
+        margin: 0 !important;
+      }
+
+      #detail-content {
+        padding: 13px !important;
+        overflow-y: visible !important;
+      }
+
+      .index-detail h2 {
+        line-height: 1.4 !important;
+        margin: 50px 0 !important;
+        text-indent: 0 !important;
+      }
+
+      .index-detail figcaption {
+        font-size: 16px !important;
+        margin: 5px 0 40px 0 !important;
+      }
+
+      .image-2,
+      .image-3 {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+        margin: 30px 0 !important;
+      }
+
+      .image-2 > div,
+      .image-3 > div {
+        width: 100% !important;
+      }
+
+      /* Verstecke Hover-Images */
+      .hover-image {
+        display: none !important;
+      }
+
+      /* Mobile About und Impressum Sektionen */
+      .mobile-about-section,
+      .mobile-impressum-section {
+        width: 100% !important;
+        padding: 20px !important;
+        margin-bottom: 60px !important;
+      }
+
+      .mobile-about-section h2,
+      .mobile-impressum-section h2 {
+        line-height: 1.6 !important;
+        margin: 15px 0 !important;
+      }
+
+      .mobile-impressum-section h1 {
+        margin: 15px 0 !important;
+      }
+
+      /* Buttons Container am Ende */
+      .buttons-container {
+        top: 0px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        z-index: 100 !important;
+        height: 50px !important;
+        justify-content: flex-start !important;
+      }
+
+      .buttons-container.collapsed {
+        max-height: 50px !important;
+      }
+
+      /* Verstecke about und impressum buttons auf mobil */
+      .impressum-button,
+      .about-button {
+        display: none !important;
+      }
+
+      /* callme-button schmäler und links */
+      .callme-button {
+        width: 100% !important;
+        text-align: left !important;
+        margin-left: auto !important;
+        background: #00f !important;
+        display: flex !important;
+        align-items: center !important;
+        border-radius: 0 0 8px 8px !important;
+      }
+
+      .callme-button h2 {
+        color: white !important;
+      }
+
+      .arbeiten-button {
+        width: 100% !important;
+        text-align: left !important;
+        margin-left: auto !important;
+        background: rgb(0, 0, 0) !important;
+        display: flex !important;
+        align-items: center !important;
+        border-radius: 0 0 8px 8px !important;
+      }
+
+      .index-detail img {
+        margin-bottom: 0.2em;
+      }
+
+    }
