@@ -183,23 +183,21 @@
               Park in Kopenhagen, beliebter Selfie-Hotspot für Touristen, <br> gleichzeitig aber auch Spielplatz für einheimische Kinder
               </figcaption>
 
-
-              <div class="image-3">
-              <div> 
-                <img src="bilder/work/km_wasser.jpg">
-              </div>
-              <div> 
-                <img src="bilder/work/km_fenster.jpg">
-              </div>
-              <img src="bilder/work/km_spiegelung.jpg">
-              </div>
-              </div>
-
-
               <img src="bilder/work/km_flohmarkt.jpg">
               <figcaption>
               Sonntagsflohmarkt, Kopenhagen <br>
               </figcaption>
+
+              <div class="image-3">
+                <div> 
+                    <img src="bilder/work/km_wasser.jpg">
+                </div>
+                <div> 
+                    <img src="bilder/work/km_fenster.jpg">
+                </div>
+                <img src="bilder/work/km_spiegelung.jpg">
+                </div>
+              </div>
 
               </div>`
       },
@@ -244,29 +242,31 @@
 
 
               <div class="image-3">
-              <div> 
-                <img src="bilder/work/nr_kirche.jpg">
-              </div>
-              <div> 
-                <img src="bilder/work/nr_schatten.jpg">
-              </div>
-              <div>
-                <img src="bilder/work/nr_flagge.jpg">
-                <figcaption>
-                Aussicht vom Vittoriano, Rom
-                </figcaption>
-              </div>
+                <div> 
+                    <img src="bilder/work/nr_kirche.jpg">
+                </div>
+                <div> 
+                    <img src="bilder/work/nr_schatten.jpg">
+                </div>
+                <div>
+                    <img src="bilder/work/nr_flagge.jpg">
+                    <figcaption>
+                    Aussicht vom Vittoriano, Rom
+                    </figcaption>
+                </div>
               </div>
 
+
               <div class="image-3">
-              <div> 
-                <img src="bilder/work/nr_statue.jpg">
-              </div>
-              <div> 
-                <img src="bilder/work/nr_ausblick.jpg">
-              </div>
-              <img src="bilder/work/nr_paar.jpg">
-              </div>
+                <div> 
+                    <img src="bilder/work/nr_statue.jpg">
+                </div>
+                <div> 
+                    <img src="bilder/work/nr_ausblick.jpg">
+                </div>
+                <div>
+                    <img src="bilder/work/nr_paar.jpg">
+                </div>
               </div>
 
 
@@ -280,7 +280,7 @@
               </h2>             
 
 
-              <div class="image-2" >
+              <div class="image-2">
               <div> 
                 <img src="bilder/work/nr_brunnen.jpg" >
                 <figcaption >
@@ -296,9 +296,6 @@
               </div>
 
 
-
-
-
               <img src="bilder/work/nr_motorrad.jpg">
               <figcaption>
               Paar auf Motorrad, Neapel
@@ -306,14 +303,15 @@
 
 
               <div class="image-3" >
-              <div> 
-                <img src="bilder/work/nr_rost.jpg" >
-              </div>
-              <div> 
-                <img src="bilder/work/nr_stadt.jpg">
-              </div>
-              <img src="bilder/work/nr_wand.jpg" >
-              </div>
+                <div> 
+                    <img src="bilder/work/nr_rost.jpg" >
+                </div>
+                <div> 
+                    <img src="bilder/work/nr_stadt.jpg">
+                </div>
+                <div>
+                <img src="bilder/work/nr_wand.jpg" >
+                </div>
               </div>
 
 
@@ -329,41 +327,41 @@
         title: 'Schall und Rauch',
         html: `<div class="index-detail">
 
-              <img src="bilder/work/sr_logos.png" style="width: 100%;">
+              <img src="bilder/work/sr_logos.png">
 
 
-              <h2 style="margin-top: 3em;">
+              <h2>
               Muss für Technoparties immer mit schwarz-roten Mustern, zackigen Tribals und futuristischen Animationen geworben werden? 
               Nö. Es gibt einige Veranstaltungen, bei denen eine offene, warme Atmosphäre, der Austausch zwischen 
               Musiker*innen und Experimentierfreudigkeit im Vordergrund stehen. Es geht darum, zusammenzufinden und Spaß zu haben.
               </h2>
-              <h2 style="text-indent: 5em;">
+              <h2>
               Die geschwungene Wortmarke leitet sich von der wellenartigen Bewegung von Rauchschwaden und Tonwellen ab. 
               Währenddessen wird durch die Farbigkeit betont, dass es sich um eine verspielte, bunte Veranstaltung handelt, 
               bei der jede*r willkommen ist.
               </h2>
 
 
-              <div class="image-2" style="margin-top: 6em;">
+              <div class="image-2">
               <div> 
                 <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/sr_reel1.mp4" type="video/mp4">
                 </video>
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <figcaption>
                 Veranstaltungsreel 1 <br> Portraits von Paaradox by Daniel Méndez Partida
                 </figcaption>
               </div>
               <div> 
                 <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/sr_reel2.mp4" type="video/mp4">
                 </video>
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <figcaption>
                 Veranstaltungsreel 2 <br>
                 </figcaption>
               </div>
               </div>
 
 
-              <img src="bilder/work/sr_poster.jpg" style="width: 100%; margin-top: 10px;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/sr_poster.jpg">
+              <figcaption>
               Poster der nächsten Veranstaltungen, Aachen <br>
               </figcaption>
 
@@ -497,32 +495,28 @@
 
               <h2 style="margin-top: 2em;">
               Die Aachener Künstlerin Barbara Brouwers schafft mit Porzellan einzigartige Kunstobjekte, die gleichzeitig als Alltagsgegenstände dienen können.
-              Ich unterstütze sie im Erstellen von Social Media Content, in der fotografischen Dokumentation ihrer Ausstellungen und betreue außerdem ihre WordPress-Website.
+              Ich unterstütze sie im Erstellen von Social Media Content, in der fotografischen Dokumentation ihrer Ausstellungen und betreue außerdem ihre WordPress-Website.</h2>
 
 
- 
-              </h2>
-
-
-              <img src="bilder/work/pp_schalen.jpg" style="width: 100%; margin-top: 3em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/pp_schalen.jpg">
+              <figcaption>
               Präsentation der Kunstobjekte von Pure Porcelain <br> in der Annahalle, Aachen
               </figcaption>
 
 
-              <div class="image-2" style="margin-top: 6em;">
-              <div> 
-                <img src="bilder/work/pp_blume.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
-                Produkt der Serie „Flower Towers“
-                </figcaption>
-              </div>
-              <div> 
-                <img src="bilder/work/pp_cup.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
-                Produkt der Serie „Cup Variations“
-                </figcaption>
-              </div>
+              <div>
+                <div> 
+                    <img src="bilder/work/pp_blume.jpg" style="width: 100%; margin-top: 0em;">
+                    <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                    Produkt der Serie „Flower Towers“
+                    </figcaption>
+                </div>
+                <div> 
+                    <img src="bilder/work/pp_cup.jpg" style="width: 100%; margin-top: 0em;">
+                    <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                    Produkt der Serie „Cup Variations“
+                    </figcaption>
+                </div>
               </div>
 
 
