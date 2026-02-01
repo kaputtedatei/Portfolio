@@ -1,4 +1,4 @@
-    const timeline = document.getElementById('timeline');
+const timeline = document.getElementById('timeline');
     const detail = document.getElementById('detail');
     const detailTitle = document.getElementById('detail-title');
     const detailContent = document.getElementById('detail-content');
@@ -110,8 +110,6 @@ function resetGridItemsOpacity() {
 
 
 
-
-
 // Indexeinträge mit Sortierinfos zu Jahren, Nutzerzahlen, alphabetischer Ordnung, continent, aktueller Marktwert
 const timelineData = [
     { id: "BA", year: 2025, categories: ["E"] },
@@ -139,11 +137,6 @@ timelineData.forEach(item => {
     btn.setAttribute('data-year', item.year);
   }
 });
-
-
-
-
-
 
 
 
@@ -202,8 +195,6 @@ timelineData.forEach(item => {
       });
     }
   }
-
-
 
 
 
@@ -268,13 +259,21 @@ function updateImage(id) {
 }
 
     function showDetail(id, fallbackTitle) {
+      const activeBtn = document.querySelector(`.timeline-item[data-id="${id}"]`);
+      const wasAlreadyActive = activeBtn && activeBtn.classList.contains('active');
+
+      // Wenn bereits aktiv: schließen statt zu wechseln
+      if (wasAlreadyActive) {
+        hideDetail();
+        return;
+      }
+
       // Entferne aktive Klasse von vorherigem Item
       document.querySelectorAll('.timeline-item.active').forEach(btn => {
         btn.classList.remove('active');
       });
       
       // Setze aktive Klasse auf neues Item
-      const activeBtn = document.querySelector(`.timeline-item[data-id="${id}"]`);
       if (activeBtn) {
         activeBtn.classList.add('active');
       }
@@ -282,6 +281,9 @@ function updateImage(id) {
       const entry = DETAILS[id];
       detailTitle.textContent = entry ? entry.title : fallbackTitle || 'Detail';
       detailContent.innerHTML = entry ? entry.html : '<p></p>';
+
+      // Reset Scroll VOR dem Anzeigen
+      detailContent.scrollTop = 0;
 
       detail.classList.add('active');
       col2.classList.add('col-hide');
@@ -301,8 +303,6 @@ function updateImage(id) {
 
       detailClose.focus();
 
-
-
       
       // Reset Detail-Filter auf "alles"
       const defaultFilter = 'all';
@@ -317,6 +317,9 @@ function updateImage(id) {
       document.querySelectorAll('.timeline-item.active').forEach(btn => {
         btn.classList.remove('active');
       });
+      
+      // Reset Scroll vor dem Schließen
+      detailContent.scrollTop = 0;
       
       detail.classList.remove('active');
       col2.classList.remove('col-hide');
@@ -408,12 +411,6 @@ gridItems.forEach(item => {
         }
       });
     }
-
-
-
-
-
-
 
 
 
@@ -514,6 +511,45 @@ gridItems.forEach(item => {
 
 
 
+    
 
+    // Timeline-Reihenfolge mit Grid-Items synchronisieren
+function syncTimelineWithGrid() {
+  // Extrahiere die Ordnung der Grid-Items
+  const gridOrder = Array.from(document.querySelectorAll('#col2 .grid-item'))
+    .map(item => item.getAttribute('data-id'));
 
+  // Speichern als ursprüngliche Ordnung (für Filterung später)
+  window.originalGridOrder = gridOrder;
 
+  // Hole alle Timeline-Items
+  const timelineList = document.getElementById('timeline');
+  const timelineItems = Array.from(timelineList.querySelectorAll('li'));
+
+  // Sortiere Timeline-Items nach Grid-Ordnung
+  timelineItems.sort((a, b) => {
+    const idA = a.querySelector('.timeline-item').getAttribute('data-id');
+    const idB = b.querySelector('.timeline-item').getAttribute('data-id');
+    
+    const indexA = gridOrder.indexOf(idA);
+    const indexB = gridOrder.indexOf(idB);
+    
+    return indexA - indexB;
+  });
+
+  // Reorder Timeline im DOM
+  timelineItems.forEach(item => {
+    timelineList.appendChild(item);
+  });
+}
+
+// Beim Laden ausführen
+document.addEventListener('DOMContentLoaded', () => {
+  syncTimelineWithGrid();
+
+  // Rest des Codes...
+  document.querySelectorAll('img[data-src]').forEach(img => {
+    img.src = img.dataset.src;
+    img.removeAttribute('data-src');
+  });
+});

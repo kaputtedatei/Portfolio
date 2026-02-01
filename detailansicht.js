@@ -76,6 +76,9 @@
 
               <h2> <a href="https://kaputtedatei.github.io/SMI/" target="_blank" rel="noopener noreferrer"> → Social Media Index </a> </h2>
 
+              <video class="dynamic-image" autoplay muted loop> <source src="bilder/work/smi_screencast.mp4" type="video/mp4">
+              </video>
+
               </div>`
       },
     
@@ -372,11 +375,11 @@
         title: 'Vintage Revivals',
         html: `<div class="index-detail">
 
-              <img src="bilder/work/vr_logo.png" style="width: 100%; margin-top: 10px;">
+              <img src="bilder/work/vr_logo.png">
 
-              <h2 style="margin-top: 3em;">
-              Mode inspiriert und verbindet uns. Sie muss an keinen Ort, kein Geschlecht und vor allem an keinen Zeitpunkt 
-              gebunden sein. Und das ist auch gut so. Denn während Trends alle 30 Jahre wiederkommen, tun unsere Ressourcen das nicht. 
+              <h2>
+              Mode inspiriert und verbindet uns. Dafür muss sie an keinen Ort, kein Geschlecht und vor allem an keinen Zeitpunkt 
+              gebunden sein. Und das ist auch gut so: Während Fashion-Trends alle 30 Jahre wiederkommen, tun unsere Ressourcen das nicht. 
               </h2>
               <h2 style="text-indent: 5em;">
               Vintage Revivals ist eine deustche Einzelhandelskette im Bereich Secondhand-Fashion, die sich durch eine vielfältige 
@@ -387,38 +390,37 @@
               </h2>
 
 
-              <img src="bilder/work/vr_farben.png" style="width: 100%; margin-top: 6em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/vr_farben.png">
+              <figcaption>
               Farbigkeit in Kombination mit Logos des fiktiven Rebrandings
               </figcaption>
 
 
-              <img src="bilder/work/vr_gedrucktes.jpg" style="width: 100%; margin-top: 10px; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/vr_gedrucktes.jpg">
+              <figcaption>
               Visitenkarten
               </figcaption>
 
 
-              <div class="image-2" style="margin-top: 0em;">
+              <div class="image-2">
               <div> 
-                <img src="bilder/work/vr_preisschild.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/vr_preisschild.jpg">
+                <figcaption>
                 Preisschild
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/vr_visitenkarte2.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/vr_visitenkarte2.jpg">
+                <figcaption>
                 <br>
                 </figcaption>
               </div>
               </div>
 
 
-              <h2 style="margin-top: 3em;">
+              <h2>
               Warum sollten wir uns durch Fast-Fashion spalten lassen und unsere Umwelt und Mitmenschen ausbeuten, 
-              wenn wir auch Secondhand kaufen können? Mit dieser Frage habe ich mich gestalterisch beim Rebranding von 
-              Vintage Revivals beschäftigt. Die Arbeit erfolgte im Rahmen eines Kurses der Uni. 
+              wenn wir Secondhand kaufen können? Mit dieser Frage habe ich mich gestalterisch beim Rebranding beschäftigt, welches im Rahmen eines Kurses der Uni erfolgte. 
               </h2>
               <h2 style="text-indent: 5em;">
               Um die Website, Preisschilder, 
@@ -429,48 +431,48 @@
               </h2>
 
 
-              <img src="bilder/work/vr_plakate.png" style="width: 100%; margin-top: 10px; margin-top: 6em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/vr_plakate.png">
+              <figcaption>
               Plakate für ein fiktives Festival der Brand <br>
               </figcaption>
               
 
-              <img src="bilder/work/vr_kataloge.png" style="width: 100%; margin-top: 10px; margin-top: 3em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/vr_kataloge.png">
+              <figcaption>
               Covers möglicher Kataloge, Mischung aus „neuen“ und „alten“ Fotos 
               </figcaption>
 
-              <video class="dynamic-image" style="width: 100%; margin-top: 3em;" autoplay muted loop> <source src="bilder/work/vr_website.mp4" type="video/mp4">
+              <video class="dynamic-image" autoplay muted loop> <source src="bilder/work/vr_website.mp4" type="video/mp4">
               </video>
-              <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+              <figcaption>
               Ansichten der fiktiven App
               </figcaption>
 
 
 
-              <div class="image-2" style="margin-top: 6em;">
+              <div class="image-2">
               <div> 
-                <img src="bilder/work/vr_ausstellung.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/vr_ausstellung.jpg">
+                <figcaption>
                 Präsentation des Rebrandings während der Semesterausstellung, FH Aachen 
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/vr_ich.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/vr_ich.jpg">
               </div>
               </div>
 
 
 
               
-              <img src="bilder/work/vr_preisschilder.png" style="width: 100%; margin-top: 0em;">
-              <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/vr_preisschilder.png">
+              <figcaption>
               Verschiedene Preisschilder
               </figcaption>
 
 
 
-              <h2 style="margin-top: 3em;">
+              <h2>
               Hast du dich schon mal gefragt, ob deine gethriftete Trainingsjacke in der DDR getragen wurde, 
               in deinem Glitzertop vielleicht auf der Love-Parade getanzt wurde und ob der Verein deines Sporttrikots 
               noch existiert? Kann ich es mit meinem Gewissen vereinbaren, Fast-Fashion zu kaufen? Wir haben doch 
@@ -480,7 +482,7 @@
 
 
               
-              <img src="bilder/work/vr_logo.gif" style="width: 100%; margin-top: 6em;">
+              <img src="bilder/work/vr_logo.gif" >
 
               </div>`
       },
@@ -504,44 +506,42 @@
               </figcaption>
 
 
-              <div>
+              <div class="image-2">
                 <div> 
-                    <img src="bilder/work/pp_blume.jpg" style="width: 100%; margin-top: 0em;">
-                    <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                    <img src="bilder/work/pp_blume.jpg">
+                    <figcaption>
                     Produkt der Serie „Flower Towers“
                     </figcaption>
                 </div>
                 <div> 
-                    <img src="bilder/work/pp_cup.jpg" style="width: 100%; margin-top: 0em;">
-                    <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                    <img src="bilder/work/pp_cup.jpg">
+                    <figcaption>
                     Produkt der Serie „Cup Variations“
                     </figcaption>
                 </div>
               </div>
 
 
-              <img src="bilder/work/pp_serenity.jpg" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/pp_serenity.jpg">
+              <figcaption>
               Schalen der Serie „Serenity“
               </figcaption>
 
 
               
-              <div class="image-2" style="margin-top: 0em;">
+              <div class="image-2">
               <div> 
-                <img src="bilder/work/pp_haende.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/pp_haende.jpg">
               </div>
                <div> 
-                <img src="bilder/work/pp_fruitshell.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/pp_fruitshell.jpg">
               </div>
               </div>
 
-              <div> 
-                <img src="bilder/work/pp_leuchte1.jpg" style="width: 100%; margin-top: 10px;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
-                Produkte der Serie „Caterpillar“
-                </figcaption>
-              </div>
+              <img src="bilder/work/pp_leuchte1.jpg">
+              <figcaption>
+              Produkte der Serie „Caterpillar“
+              </figcaption>
 
               </div>`
       },
@@ -619,25 +619,25 @@
         html: `<div class="index-detail">
 
 
-              <img src="bilder/work/px_weiß.jpg" style="width: 100%;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/px_weiß.jpg">
+              <figcaption>
               Pixie in Outlines, unfarbig und abgerundet <br> mit einer deutlich veränderten Wirkung
               </figcaption>
 
 
-              <img src="bilder/work/px_g.png" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/px_g.png">
+              <figcaption>
               Grafische Experimente mit dem Displayfont Pixie
               </figcaption>
 
 
 
-              <div class="image-2" style="margin-top: 0em;">
+              <div class="image-2">
               <div> 
-                <img src="bilder/work/px_schwarz.png" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/px_schwarz.png">
               </div>
               <div> 
-                <img src="bilder/work/px_kranich.png" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/px_kranich.png">
               </div>
               </div>
 
@@ -658,13 +658,13 @@
               </h2>
 
 
-              <img src="bilder/work/wtp.png" style="width: 100%; margin-top: 3em">
-              <figcaption style="margin-top: 10px;">
+              <img src="bilder/work/wtp.png">
+              <figcaption>
               „Zwischen Situationships, Triple Air Signs, Bombastic Side Eye und Awareness“
               </figcaption>
 
 
-              <h2 style="margin-top: 3em;">
+              <h2>
               Wie viele Stunden, Tage oder Jahre deines Lebens wirst du am Smartphone verbringen? In diesem Projekt habe 
               ich mich auf humorvolle Weise damit auseinandergesetzt, inwiefern unsere Handynutzung uns beeinflusst und 
               möglicherweise auch schadet. Es diente als Vorarbeit und gestalterische Recherche meiner Bachelorarbeit.
@@ -679,36 +679,36 @@
               </h2>
 
 
-              <img src="bilder/work/wtp_druck.jpg" style="width: 100%; margin-top: 5em;">
-              <figcaption style="margin-top: 10px;">
+              <img src="bilder/work/wtp_druck.jpg">
+              <figcaption>
               Fertiges Magazin und zugehörige Drucksachen
               </figcaption>
 
 
-              <h2 style="margin-top: 3em;">
+              <h2>
               Das Adjektiv „phony“ kommt aus dem Englischen und bedeutet so viel wie unecht, künstlich oder falsch. 
               Mir ist der Begriff beim Lesen von „The Catcher in the Rye“ in die Hände gefallen, in dem er genutzt wird, 
               um die aufgesetzte Art der New Yorker Oberschicht zu beschreiben. 
               </h2>
       
 
-              <img src="bilder/work/wtp6.png" style="width: 100%; margin-top: 5em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/wtp6.png">
+              <figcaption>
               „Mensch oder Maschine?“
               </figcaption>
 
-              <img src="bilder/work/wtp5.png" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/wtp5.png">
+              <figcaption>
               „Social Media Role Models“
               </figcaption>
 
-              <img src="bilder/work/wtp_artprints.jpg" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/wtp_artprints.jpg">
+              <figcaption>
               Artprints meiner Lieblingsseiten
               </figcaption>
               
-              <img src="bilder/work/wtp3.png" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/wtp3.png">
+              <figcaption>
               „WhatsApp oder Baby?“
               </figcaption>
 
@@ -720,56 +720,56 @@
         html: `<div class="index-detail">
 
 
-              <img src="bilder/work/s_wasser.jpg" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/s_wasser.jpg">
+              <figcaption>
               Farbenspiel im glasklaren Wasser, leider keine Fische
               </figcaption>
 
 
-              <h2 style="margin-top: 3em;">
+              <h2>
               Split ist eine wundervolle Stadt, wird leider aber im Sommer von Touristen überflutet. Ich habe versucht, mich nicht 
               von der Schönheit der Natur und Stadt selbst ablenken zu lassen, war mir aber gleichzeitig meines eigenen
               Touristen-Daseins bewusst.
               </h2>
 
 
-              <div class="image-3" style="margin-top: 6em;">
+              <div class="image-3">
               <div> 
-                <img src="bilder/work/s_nonne.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/s_nonne.jpg">
+              <figcaption>
                 Eine Nonne auf der Straße
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/s_ich.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/s_ich.jpg">
+                <figcaption>
                 Mein Schatten, am Meer
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/s_katze.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/s_katze.jpg">
               </div>
               </div>
 
-              <img src="bilder/work/s_schatten.jpg" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/s_schatten.jpg">
+              <figcaption>
               Schattenspiele
               </figcaption>
 
 
-              <div class="image-3" style="margin-bottom: 2em;"">
+              <div class="image-3">
               <div> 
-                <img src="bilder/work/s_waesche.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
-                Waesche
+                <img src="bilder/work/s_waesche.jpg">
+                <figcaption>
+                Wäsche
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/s_ufer.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/s_ufer.jpg">
               </div>
               <div> 
-                <img src="bilder/work/s_muell.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/s_muell.jpg">
+                <figcaption>
                 Mülltrennung am Ufer
                 </figcaption>
               </div>
@@ -783,10 +783,10 @@
         html: `<div class="index-detail">
 
 
-              <img src="bilder/work/rwth_icons2.png" style="width: 100%; margin-top: 0em;">
+              <img src="bilder/work/rwth_icons2.png">
 
 
-              <h2 style="margin-top: 3em;">
+              <h2>
               Während meiner fast zweijährigen Anstellung als HiWine im Bereich Grafikdesign an einem Lehrstuhl 
               der RWTH Aachen habe ich besonders im Bereich Informationsdesign viel gelernt. Durch die Zusammenarbeit
               mit den angestellten Forschenden habe ich außerdem erste Erfahrungen mit professionellen Briefings gesammelt.
@@ -795,22 +795,22 @@
               </h2>
 
               
-              <img src="bilder/work/rwth_mockup.png" style="width: 100%; margin-top: 6em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/rwth_mockup.png" >
+              <figcaption>
               Posts für den Instagram-Kanal des Instituts
               </figcaption>
 
 
 
-              <img src="bilder/work/rwth_schaubild2.png" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/rwth_schaubild2.png" >
+              <figcaption>
               Grafik zum Verfahren DACCS, CO2-Abscheidung aus der Luft
               </figcaption>
 
 
 
-              <img src="bilder/work/rwth_icons.png" style="width: 100%; margin-top: 1em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 20px;">
+              <img src="bilder/work/rwth_icons.png" >
+              <figcaption>
               Iconset für verschiedene Forschungsbereiche des Instituts
               </figcaption>
 
@@ -825,65 +825,65 @@
 
               <div class="image-2">
               <div> 
-                <img src="bilder/work/i_gipfel.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/i_gipfel.jpg">
+                <figcaption>
                 Aussicht auf benachbarten Berg
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/i_vegetationsschichten.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/i_vegetationsschichten.jpg">
               </div>
               </div>
 
 
 
-              <img src="bilder/work/i_regenbogen.jpg" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px;">
+              <img src="bilder/work/i_regenbogen.jpg">
+              <figcaption>
               Patsch, mit Blick auf Berge um Innsbruck
               </figcaption>
 
 
-              <h2 style="margin-top: 3em;">
-              In Innsbruck die richtige Bushaltestelle zu verpassen, kann schnell dramatisch werden. Eigentlich
-              wollte ich am Innsbrucker Tivoli aussteigen, war aber zu abgelenkt. Und schon landete ich in den Bergen, konnte
+              <h2>
+              Wenn man in Innsbruck den richtigen Ausstieg im Bus verpasst, kann es schnell dramatisch werden. Eigentlich
+              wollte ich am Innsbrucker Tivoli aussteigen, war aber zu abgelenkt. Schon landete ich in den Bergen, konnte
               dadurch aber den wunderschönen Regenbogen genießen, während ich auf den nächsten Bus zurück in Richtung Stadt wartete.
               Hat zum Glück auch nur 15 Minuten gedauert, hehe.
               </h2>
 
 
-              <div class="image-3" style="margin-top: 6em;"">
+              <div class="image-3" style="margin-top: 6em;">
               <div> 
-                <img src="bilder/work/i_wanderer.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/i_wanderer.jpg">
+                <figcaption>
                 Wanderer am Patscherkofel, Innsbruck
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/i_turm.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/i_turm.jpg">
               </div>
               <div> 
-                <img src="bilder/work/i_schild.jpg" style="width: 100%; margin-top: 0em;">
+                <img src="bilder/work/i_schild.jpg">
               </div>
               </div>
 
 
 
-              <img src="bilder/work/i_bank.jpg" style="width: 100%; margin-top: 0em;">
-              <figcaption style="margin-bottom: 2em; margin-top: 10px; margin-bottom: 2em;">
+              <img src="bilder/work/i_bank.jpg">
+              <figcaption>
               Bank mit Blick auf Innsbruck <br>
               </figcaption>
 
 
               <div class="image-2">
               <div> 
-                <img src="bilder/work/i_aussicht.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/i_aussicht.jpg">
+                <figcaption>
                 Sicht in Richtung der weit entfernten Schweiz
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/i_alm.jpg" style="width: 100%; margin-top: 0em;">
-                <figcaption style="width: 100%; margin-bottom: 2em; margin-top: 10px;">
+                <img src="bilder/work/i_alm.jpg">
+                <figcaption>
                 Beleuchtete Alm
                 </figcaption>
               </div>

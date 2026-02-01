@@ -93,7 +93,7 @@ p {
   padding: 0px !important;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 400px;
+  grid-auto-rows: 47vh;
   box-sizing: border-box;
 }
 
@@ -196,10 +196,6 @@ p {
 
 
 
-
-
-
-/* ??? */
 
 /* Abstand zwischen Paragraphen */
 .gap {
@@ -390,8 +386,6 @@ scrollbar-width: none;
 
 
 
-
-
 a {
   color: #99f;
 }  
@@ -401,114 +395,67 @@ a:hover {
 }  
 
 
-/*
+
+/* Basis-Styling */
 .index-detail h2 {
   max-width: 55ch;
-  margin-bottom: 3em;
-  margin-top: 3em;
 }
 
 .index-detail img {
-  margin-top: 0;
-  margin-bottom: 0.5em;
   width: 100%;
 }
 
-.index-detail figcaption {
-  margin-top: 0;
-  margin-bottom: 0;
+.index-detail video.dynamic-image {
+  width: 100%;
 }
 
-.index-detail h2 + h2 {
-  margin-top: -3em !important;
-}
-*/
-
-.index-detail h2 {
-  max-width: 55ch;
-}
-
-.index-detail h2 + img {
-  margin-top: 5em;
-}
-
-.index-detail h2 + .image-2 {
-  margin-top: 5em;
-}
-
-.index-detail h2 + .image-3 {
-  margin-top: 5em;
-}
-
+/* Abstände: Bilder nach h2 */
+.index-detail h2 + img,
+.index-detail h2 + .image-2,
+.index-detail h2 + .image-3,
 .index-detail h2 + .image-4 {
-  margin-top: 5em;
-}
-
-
-
-.index-detail img {
-  width: 100%;
-}
-
-.index-detail img + figcaption {
-  margin-top: 0.5em;
-}
-
-.index-detail img + img {
-  margin-top: 2em;
-}
-
-.index-detail img + h2 {
   margin-top: 3em;
 }
 
-
-
-.index-detail figcaption + h2 {
-  margin-top: 3em;
+/* Abstände: Bilder nach Bilder */
+.index-detail img + img,
+.index-detail .image-2 + img,
+.index-detail .image-3 + img,
+.index-detail .image-4 + img {
+  margin-top: 1em;
 }
 
-.index-detail figcaption + img {
-  margin-top: 2em;
-}
-
-.index-detail figcaption + .image-2 {
-  margin-top: 2em;
-}
-
-.index-detail figcaption + .image-3 {
-  margin-top: 2em;
-}
-
-
-
-.index-detail .image-2 + h2 {
-  margin-top: 3em;
-}
-
-.index-detail .image-3 + h2 {
-  margin-top: 3em;
-}
-
+/* Abstände: h2 nach Bildern */
+.index-detail img + h2,
+.index-detail figcaption + h2,
+.index-detail .image-2 + h2,
+.index-detail .image-3 + h2,
 .index-detail .image-4 + h2 {
   margin-top: 3em;
 }
 
-.index-detail .image-2 + img {
+/* Abstände: figcaption */
+.index-detail img + figcaption {
+  margin-top: 0.5em;
+}
+
+.index-detail figcaption + img,
+.index-detail figcaption + .image-2,
+.index-detail figcaption + .image-3 {
   margin-top: 2em;
 }
 
-.index-detail .image-3 + img {
-  margin-top: 2em;
-}
-
-.index-detail .image-4 + img {
-  margin-top: 2em;
-}
-
+/* Abstände: Bildgruppen untereinander */
+.index-detail .image-2 + .image-3,
 .index-detail .image-3 + .image-3 {
   margin-top: 2em;
 }
+
+/* Video */
+.index-detail video {
+  margin-top: 2em;
+}
+
 
 
 
