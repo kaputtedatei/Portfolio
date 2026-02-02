@@ -186,6 +186,7 @@
               </h2>
 
 
+
               <img src="bilder/work/km_turm.jpg">
               <figcaption>
               Turning Torso in Malmö, Schweden 
@@ -212,6 +213,20 @@
               <figcaption>
               Park in Kopenhagen, beliebter Selfie-Hotspot für Touristen, <br> gleichzeitig aber auch Spielplatz für einheimische Kinder
               </figcaption>
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/km_mast.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/km_theater.jpg">
+                <figcaption>
+                Theater, Kopenhagen <br>
+                </figcaption>
+              </div>
+              </div>
+              
 
               <img src="bilder/work/km_flohmarkt.jpg">
               <figcaption>
