@@ -553,3 +553,17 @@ document.addEventListener('DOMContentLoaded', () => {
     img.removeAttribute('data-src');
   });
 });
+
+
+
+
+// Lazyloading mit Blur
+document.querySelectorAll('img').forEach(img => {
+  img.loading = 'lazy';
+});
+
+document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+  img.addEventListener('load', () => {
+    img.classList.add('loaded');
+  });
+});

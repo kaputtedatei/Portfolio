@@ -13,7 +13,14 @@ body {
   height: 100vh;
 }
 
+img[loading="lazy"] {
+  filter: blur(10px);
+  transition: filter 0.3s;
+}
 
+img[loading="lazy"].loaded {
+  filter: blur(0);
+}
 
 
 
