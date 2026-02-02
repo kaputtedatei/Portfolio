@@ -667,7 +667,7 @@
               </figcaption>
 
 
-              <img src="bilder/work/px_g.png">
+              <img src="bilder/work/px_g.jpg">
               <figcaption>
               Grafische Experimente mit dem Displayfont Pixie
               </figcaption>
