@@ -739,7 +739,7 @@
               „Mensch oder Maschine?“
               </figcaption>
 
-              <img src="bilder/work/wtp5.png">
+              <img src="bilder/work/wtp5.jpg">
               <figcaption>
               „Social Media Role Models“
               </figcaption>
@@ -837,7 +837,7 @@
               </h2>
 
               
-              <img src="bilder/work/rwth_mockup.png" >
+              <img src="bilder/work/rwth_mockup.jpg" >
               <figcaption>
               Posts für den Instagram-Kanal des Instituts
               </figcaption>
