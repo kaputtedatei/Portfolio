@@ -825,7 +825,7 @@
         html: `<div class="index-detail">
 
 
-              <img src="bilder/work/rwth_icons2.png">
+              <img src="bilder/work/rwth_icons3.jpg" >
 
 
               <h2>
@@ -833,16 +833,21 @@
               der RWTH Aachen habe ich besonders im Bereich Informationsdesign viel gelernt. Durch die Zusammenarbeit
               mit den angestellten Forschenden habe ich außerdem erste Erfahrungen mit professionellen Briefings gesammelt.
               Ich konnte nicht nur meine Kenntnisse im Umgang mit Adobe Illustrator erweitern, sondern auch im Social 
-              Media Team mithelfen, den Großteil der Teamfotos anfertigen und teils die Website des Instituts aktualisieren.
+              Media Team mithelfen, den Großteil der Teamfotos anfertigen und die Website des Instituts anhand eines CMS updaten.
               </h2>
 
-              
-              <img src="bilder/work/rwth_mockup.jpg" >
+              <h2> <br> <a href="https://www.ltt.rwth-aachen.de/cms/LTT/Der-Lehrstuhl/~ivnu/Team/" target="_blank" rel="noopener noreferrer"> → Teamfotos </a> </h2>
+
+
+
+              <img src="bilder/work/rwth_mockup.jpg" style="margin-top: 4em;">
               <figcaption>
               Posts für den Instagram-Kanal des Instituts
               </figcaption>
 
 
+              <img src="bilder/work/rwth_icons2.png" style="margin-top: 4em; margin-bottom: 4em;">
+              
 
               <img src="bilder/work/rwth_schaubild2.png" >
               <figcaption>
@@ -850,11 +855,11 @@
               </figcaption>
 
 
-
-              <img src="bilder/work/rwth_icons.png" >
+              <img src="bilder/work/rwth_diversity.jpg" >
               <figcaption>
-              Iconset für verschiedene Forschungsbereiche des Instituts
+              Grafik, die zu mehr Diversität in der Forschung aufruft
               </figcaption>
+
 
               </div>`
       },
@@ -950,4 +955,78 @@
               </div>`
       },
      
+      'IL': {
+        title: 'Illustrationen',
+        html: `<div class="index-detail">
+
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/i_gipfel.jpg">
+                <figcaption>
+                Aussicht auf benachbarten Berg
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/i_vegetationsschichten.jpg">
+              </div>
+              </div>
+
+
+              <h2>
+              Bevor Design zu meiner Leidenschaft wurde, liebte ich das Zeichnen. Hierbei handelt es sich um Illustrationen, die ich für die Dissertation von Simon Völker, einem ehemaligen Kollegen des LTT (RWTH) erstellte.
+              </h2>
+
+
+              <img src="bilder/work/i_regenbogen.jpg">
+              <figcaption>
+              Patsch, mit Blick auf Berge um Innsbruck
+              </figcaption>
+
+
+
+
+              <div class="image-3" style="margin-top: 6em;">
+              <div> 
+                <img src="bilder/work/i_wanderer.jpg">
+                <figcaption>
+                Wanderer am Patscherkofel, Innsbruck
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/i_turm.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/i_schild.jpg">
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/i_bank.jpg">
+              <figcaption>
+              Bank mit Blick auf Innsbruck <br>
+              </figcaption>
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/i_aussicht.jpg">
+                <figcaption>
+                Sicht in Richtung der weit entfernten Schweiz
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/i_alm.jpg">
+                <figcaption>
+                Beleuchtete Alm
+                </figcaption>
+              </div>
+              </div>
+
+
+              </div>`
+      },
+      
     };
