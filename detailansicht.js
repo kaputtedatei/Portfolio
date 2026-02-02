@@ -76,8 +76,35 @@
 
               <h2> <a href="https://kaputtedatei.github.io/SMI/" target="_blank" rel="noopener noreferrer"> → Social Media Index </a> </h2>
 
-              <video class="dynamic-image" autoplay muted loop> <source src="bilder/work/smi_screencast.mp4" type="video/mp4">
-              </video>
+
+              <h2 style="margin-top: 2em;">
+              Der SMI (Social Media Index) ist eine Sammlung von Social Media
+              Plattformen, die sortiert und gefiltert werden können. Er verfügt über die experimentell gecodeten Seiten index.html, hof.html und glossar.hmtl.
+              Mein Ziel für dieses Projekt war es, die Grundlagen von HTML und CSS zu erlernen. Parallel habe ich erprobt, inwiefern man als Designer*in Webdesign neu interpretieren und mit Fehlern im Code arbeiten kann. Mein Lernprozess, die verwendeten Tools und meine Erkenntnisse aus dem Experiment habe ich im beiligenden Heft dokumentiert.
+              </h2>
+
+
+              <img src="bilder/work/smi_index.jpg">
+              <figcaption>
+              Startseite des Social Media Index <br>
+              </figcaption>
+
+              <img src="bilder/work/smi_index_read.jpg">
+              <figcaption>
+              Startseite Index mit vergrößerter #col1 <br>
+              </figcaption>
+              
+              <img src="bilder/work/smi_hof.jpg">
+              <figcaption>
+              Unterseite „Hall of Fame“ <br>
+              </figcaption>
+
+              <img src="bilder/work/smi_glossar.jpg">
+              <figcaption>
+              Unterseite „Glossar“ <br>
+              </figcaption>
+
+
 
               </div>`
       },
