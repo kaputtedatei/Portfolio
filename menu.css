@@ -12,7 +12,7 @@
 
 /* Anzeige Buttons */
 .callme-button {
-  cursor: not-allowed;
+  cursor: pointer;
   background: rgb(255, 142, 174);
   transition: 0.0s ease;
   color: #fff;
@@ -40,7 +40,7 @@
 
 .about-button {
   z-index: 100;
-  cursor: not-allowed;
+  cursor: pointer;
   background: rgb(255, 210, 199);
   transition: 0.0s ease;
   color: #fff;
