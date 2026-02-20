@@ -372,7 +372,6 @@
         title: 'Schall und Rauch',
         html: `<div class="index-detail">
 
-              <img src="bilder/work/sr_logos.png">
 
 
               <h2>
@@ -403,6 +402,15 @@
                 </figcaption>
               </div>
               </div>
+
+              <img src="bilder/work/sr_logo.png" style="margin-top: 4em; margin-bottom: 2em;">
+
+              <img src="bilder/work/sr_entwuerfe.jpg">
+              <figcaption>
+              Scribbles und erste Logo-Entwürfe <br>
+              </figcaption>
+
+
 
 
               <img src="bilder/work/sr_poster.jpg">
