@@ -539,14 +539,21 @@
 
               <h2 style="margin-top: 2em;">
               Die Aachener Künstlerin Barbara Brouwers schafft mit Porzellan einzigartige Kunstobjekte, die gleichzeitig als Alltagsgegenstände dienen können.
-              Ich unterstütze sie im Erstellen von Social Media Content, in der fotografischen Dokumentation ihrer Ausstellungen und betreue außerdem ihre WordPress-Website.</h2>
+              Ich unterstütze sie im Bereich Marketing (Social Media Strategie und Gestalten von Content), in der fotografischen Dokumentation ihrer Ausstellungen und betreue außerdem ihre WordPress-Website.</h2>
 
 
               <img src="bilder/work/pp_schalen.jpg">
               <figcaption>
               Präsentation der Kunstobjekte von Pure Porcelain <br> in der Annahalle, Aachen
               </figcaption>
+              
 
+              <img src="bilder/work/pp_insta_posts.jpg">
+              <figcaption>
+              Instagram-Profil von Pure Porcelain, alle Posts sind in Zusammenarbeit <br>
+              von Barbara Brouwers und mir entstanden :)
+              </figcaption>
+              
 
               <div class="image-2">
                 <div> 
@@ -569,6 +576,10 @@
               Schalen der Serie „Serenity“
               </figcaption>
 
+              <img src="bilder/work/pp_insta_mockup.jpg" style="margin-top: 3em">
+              <figcaption>
+              aus den Materialien der Künstlerin ergibt sich ein Farbschema, <br> das auch auf die grafischen Elemente Social Medias angewendet wird
+              </figcaption>
 
               
               <div class="image-2">
@@ -861,7 +872,7 @@
               Grafik, die zu mehr Diversität in der Forschung aufruft
               </figcaption>
 
-                            <img src="bilder/work/rwth_ernaehrung.jpg" >
+              <img src="bilder/work/rwth_ernaehrung.jpg" >
               <figcaption>
               Illustrationen zum Thema Ernährung, erstellt für die Dissertation von Simon Völker (LTT)
               </figcaption>
