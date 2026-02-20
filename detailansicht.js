@@ -855,11 +855,16 @@
               </figcaption>
 
 
+
               <img src="bilder/work/rwth_diversity.jpg" >
               <figcaption>
               Grafik, die zu mehr Diversität in der Forschung aufruft
               </figcaption>
 
+                            <img src="bilder/work/rwth_ernaehrung.jpg" >
+              <figcaption>
+              Illustrationen zum Thema Ernährung, erstellt für die Dissertation von Simon Völker (LTT)
+              </figcaption>
 
               </div>`
       },
