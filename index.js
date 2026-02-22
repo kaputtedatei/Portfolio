@@ -285,6 +285,8 @@ function updateImage(id) {
       // Reset Scroll VOR dem Anzeigen
       detailContent.scrollTop = 0;
 
+      if (DETAILS[id].init) DETAILS[id].init();
+
       detail.classList.add('active');
       col2.classList.add('col-hide');
       col3.classList.add('col-hide');

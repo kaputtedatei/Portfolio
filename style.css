@@ -420,7 +420,8 @@ a:hover {
 .index-detail h2 + img,
 .index-detail h2 + .image-2,
 .index-detail h2 + .image-3,
-.index-detail h2 + .image-4 {
+.index-detail h2 + .image-4,
+.index-detail h2 + .carousel {
   margin-top: 3em;
 }
 
@@ -463,9 +464,45 @@ a:hover {
   margin-top: 2em;
 }
 
+.index-detail .carousel + h2 {
+  margin-top: 2em;
+}
 
 
 
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel img {
+    display: block;
+    width: 100%;
+}
+
+.carousel::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    cursor: w-resize;  /* Linke Seite */
+    z-index: 10;
+}
+
+.carousel::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    cursor: e-resize;  /* Rechte Seite */
+    z-index: 10;
+}
 
 
 
