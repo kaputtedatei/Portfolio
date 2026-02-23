@@ -58,16 +58,16 @@ const DETAILS = {
           </div>
 
           <h2>
-          Hier kannst du dich durch die Inhalte des Magazins durchklicken. :) <br>
+          Hier kannst du dich durch die Inhalte des Magazins klicken. :) <br>
           Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite. 
           </h2>
 
-          <img src="bilder/work/ba_heart.jpg">
+          <img src="bilder/work/ba_text.jpg">     
           <figcaption>
           Einblicke in Einzelseiten des Magazins <br>
           </figcaption>
 
-          <img src="bilder/work/ba_text.jpg">
+          <img src="bilder/work/ba_heart.jpg">
 
           <img src="bilder/work/ba_product.jpg">         
 
