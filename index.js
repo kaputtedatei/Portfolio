@@ -113,12 +113,12 @@ function resetGridItemsOpacity() {
 // Indexeinträge mit Sortierinfos zu Jahren, Nutzerzahlen, alphabetischer Ordnung, continent, aktueller Marktwert
 const timelineData = [
     { id: "BA", year: 2025, categories: ["E"] },
-    { id: "PL", year: 2025, categories: ["F"] },
+    { id: "P", year: 2025, categories: ["F"] },
     { id: "PP", year: 2025, categories: ["S", "F", "B"] },
     { id: "SMI", year: 2026, categories: ["W"] },
     { id: "M", year: 2025, categories: ["T"] },
     { id: "VR", year: 2024, categories: ["B", "F", "E", "W"] },
-    { id: "RWTH", year: 2023, categories: ["B", "S", "F"] },
+    { id: "RWTH", year: 2023, categories: ["B", "S"] },
     { id: "SR", year: 2024, categories: ["M", "S", "B"] },
     { id: "NR", year: 2023, categories: ["F"] },
     { id: "WTP", year: 2023, categories: ["E"] },
@@ -126,7 +126,9 @@ const timelineData = [
     { id: "S", year: 2024, categories: ["F"] },
     { id: "I", year: 2025, categories: ["F"] },
     { id: "PX", year: 2024, categories: ["T"] },
-    { id: "A", year: "2019+", categories: [] },    
+    { id: "PG", year: 2026, categories: ["F", "B"] },
+    { id: "ST", year: "2019+", categories: [] },
+
     
   ];
 

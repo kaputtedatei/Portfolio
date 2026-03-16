@@ -1,122 +1,122 @@
 const DETAILS = {
-  'BA': {
-    title: 'Bachelorarbeit',
-    html: `<div class="index-detail">
+      'BA': {
+        title: 'Bachelorarbeit',
+        html: `<div class="index-detail">
 
-          <img src="bilder/work/ba.jpg">
-          <figcaption>
-          Fertiges Magazin  „Wie überlebe ich mit Smartphone? Ein postdigitaler Survival-Guide"<br>  
-          <a href="https://www.diploma-ac.de/projekte/wie-ueberlebe-ich-mit-smartphone/" target="_blank" rel="noopener noreferrer"> → Website der FH Werkschau </a>
-          </figcaption>
+              <img src="bilder/work/ba.jpg">
+              <figcaption>
+              Fertiges Magazin  „Wie überlebe ich mit Smartphone? Ein postdigitaler Survival-Guide"<br>  
+              <a href="https://www.diploma-ac.de/projekte/wie-ueberlebe-ich-mit-smartphone/" target="_blank" rel="noopener noreferrer"> → Website der FH Werkschau </a>
+              </figcaption>
 
-          <div class="image-3">
-          <div> 
-            <img src="bilder/work/ba_ausstellung3.jpg">
-            <figcaption>
-            Ausgestelltes Magazin auf der Diploma-Ausstellung der FH Aachen, 2025 <br>
-            </figcaption>
-          </div>
-          <div> 
-            <img src="bilder/work/ba_ausstellung2.jpg">
-          </div>
-          <div> 
-            <img src="bilder/work/ba_ausstellung1.jpg">
-            </div>
-          </div>
+              <div class="image-3">
+              <div> 
+                <img src="bilder/work/ba_ausstellung3.jpg">
+                <figcaption>
+                Ausgestelltes Magazin auf der Diploma-Ausstellung der FH Aachen, 2025 <br>
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/ba_ausstellung2.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/ba_ausstellung1.jpg">
+                </div>
+              </div>
 
-          <h2>
-          Dieses Magazin ist im Rahmen meiner Bachelorarbeit entstanden und setzt sich mit zentralen Fragestellungen des Digitalzeitalters auseinander. 
-          Es beleuchtet unsere alltägliche Smartphone-Nutzung auf spielerische und zugleich kritische Weise, wobei die sozialen Medien im Fokus stehen. 
-          </h2>
-          <h2 style="text-indent: 5em;">
-          Durch suchtförderndes Design ziehen uns TikTok, Instagram und Co. oft in endlose Scroll-Schleifen und rauben uns wertvolle Zeit. 
-          Außerdrem erschweren die Verbreitung von Desinformation und der wachsende Einfluss von KI es uns, online Fakten zu erkennen.
-          Die Publikation dient hierbei als Hilfestellung, um den digitalen Raum sicher und reflektiert zu navigieren, und bietet praxisnahe Tipps 
-          in den Bereichen Medienkompetenz, Gewohnheitsbildung und Achtsamkeit. Durch Quizze und Persönlichkeitstests werden die Lesenden aktiv 
-          eingebunden und interaktive Elemente digitaler Plattformen aufgegriffen.
-          </h2>
+              <h2>
+              Dieses Magazin ist im Rahmen meiner Bachelorarbeit entstanden und setzt sich mit zentralen Fragestellungen des Digitalzeitalters auseinander. 
+              Es beleuchtet unsere alltägliche Smartphone-Nutzung auf spielerische und zugleich kritische Weise, wobei die sozialen Medien im Fokus stehen. 
+              </h2>
+              <h2 style="text-indent: 5em;">
+              Durch suchtförderndes Design ziehen uns TikTok, Instagram und Co. oft in endlose Scroll-Schleifen und rauben uns wertvolle Zeit. 
+              Außerdrem erschweren die Verbreitung von Desinformation und der wachsende Einfluss von KI es uns, online Fakten zu erkennen.
+              Die Publikation dient hierbei als Hilfestellung, um den digitalen Raum sicher und reflektiert zu navigieren, und bietet praxisnahe Tipps 
+              in den Bereichen Medienkompetenz, Gewohnheitsbildung und Achtsamkeit. Durch Quizze und Persönlichkeitstests werden die Lesenden aktiv 
+              eingebunden und interaktive Elemente digitaler Plattformen aufgegriffen.
+              </h2>
 
-          <img src="bilder/work/ba_doppelseiten.jpg">
-          <figcaption>
-          Meine Lieblings-Doppelseiten des Magazins :) <br>
-          </figcaption>
+              <img src="bilder/work/ba_doppelseiten.jpg">
+              <figcaption>
+              Meine Lieblings-Doppelseiten des Magazins :) <br>
+              </figcaption>
 
-          <h2>
-          „Reel: weiterscrollen. Tinder-Profil: wegswipen. Song: skippen. Trendy Kleidung: bestellen und nach einem Jahr wegwerfen. Job: wechseln. Beziehung: beenden, um neue Erfahrungen zu machen. Planeten: zerstören und abwarten, ob er wie durch ein Wunder gerettet wird.
-          Scrollen wir durch unser Leben wie durch einen endlosen Feed, ständig auf der Suche nach dem nächsten kleinen Dopaminschub? Leiden wir alle an einer postdigitalen, universellen Bindungsstörung?
-          Wir wissen, dass unsere Bildschirmzeiten zu hoch sind und wir Freunde, Familie, Hobbys und letztlich uns selbst vernachlässigen. 
-          </h2>
-          <h2 style="text-indent: 5em;">
-          Warum ändern wir dann nichts? Warum fällt es uns so schwer, aus diesem digitalen Labyrinth von Bildern, Videos, Likes und Nachrichten zu entkommen? Treffen wir nur noch triviale Entscheidungen – scroll, like, save – um relevanten Entscheidungen aus dem Weg zu gehen? Sind wir zu impulsgesteuerten Hedonisten geworden? Richten wir unser ganzes Leben auf das Konsumieren von Waren und Medieninhalten aus? Wählen wir unsere Vorlieben bloß aus einem Pool an Online-Trends aus?
-          Ist es uns zu anstrengend, uns mit uns selbst auseinanderzusetzen? Sind wir schlichtweg zu faul geworden, Vereinen oder Gemeinden beizutreten? Woran glauben wir noch? Haben wir überhaupt noch die Kontrolle über unsere Smartphone-Nutzung? Oder liegt es in der Verantwortung von Tech-Konzernen wie Meta, Abläufe in den sozialen Medien ethischer und weniger suchtfördernd zu gestalten?
-          Wie können wir die Kontrolle zurückerlangen?
-          Was können wir tun?"
-          </h2>
+              <h2>
+              „Reel: weiterscrollen. Tinder-Profil: wegswipen. Song: skippen. Trendy Kleidung: bestellen und nach einem Jahr wegwerfen. Job: wechseln. Beziehung: beenden, um neue Erfahrungen zu machen. Planeten: zerstören und abwarten, ob er wie durch ein Wunder gerettet wird.
+              Scrollen wir durch unser Leben wie durch einen endlosen Feed, ständig auf der Suche nach dem nächsten kleinen Dopaminschub? Leiden wir alle an einer postdigitalen, universellen Bindungsstörung?
+              Wir wissen, dass unsere Bildschirmzeiten zu hoch sind und wir Freunde, Familie, Hobbys und letztlich uns selbst vernachlässigen. 
+              </h2>
+              <h2 style="text-indent: 5em;">
+              Warum ändern wir dann nichts? Warum fällt es uns so schwer, aus diesem digitalen Labyrinth von Bildern, Videos, Likes und Nachrichten zu entkommen? Treffen wir nur noch triviale Entscheidungen – scroll, like, save – um relevanten Entscheidungen aus dem Weg zu gehen? Sind wir zu impulsgesteuerten Hedonisten geworden? Richten wir unser ganzes Leben auf das Konsumieren von Waren und Medieninhalten aus? Wählen wir unsere Vorlieben bloß aus einem Pool an Online-Trends aus?
+              Ist es uns zu anstrengend, uns mit uns selbst auseinanderzusetzen? Sind wir schlichtweg zu faul geworden, Vereinen oder Gemeinden beizutreten? Woran glauben wir noch? Haben wir überhaupt noch die Kontrolle über unsere Smartphone-Nutzung? Oder liegt es in der Verantwortung von Tech-Konzernen wie Meta, Abläufe in den sozialen Medien ethischer und weniger suchtfördernd zu gestalten?
+              Wie können wir die Kontrolle zurückerlangen?
+              Was können wir tun?"
+              </h2>
 
-          <div class="carousel">
-              <img src="bilder/work/14Mag3.jpg">
-          </div>
+              <div class="carousel">
+                  <img src="bilder/work/14Mag3.jpg">
+              </div>
 
-          <h2>
-          Hier kannst du dich durch die Inhalte des Magazins klicken. :) <br>
-          Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite. 
-          </h2>
+              <h2>
+              Hier kannst du dich durch die Inhalte des Magazins klicken. :) <br>
+              Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite. 
+              </h2>
 
-          <img src="bilder/work/ba_text.jpg">     
-          <figcaption>
-          Einblicke in Einzelseiten des Magazins <br>
-          </figcaption>
+              <img src="bilder/work/ba_text.jpg">     
+              <figcaption>
+              Einblicke in Einzelseiten des Magazins <br>
+              </figcaption>
 
-          <img src="bilder/work/ba_heart.jpg">
+              <img src="bilder/work/ba_heart.jpg">
 
-          <img src="bilder/work/ba_product.jpg">         
+              <img src="bilder/work/ba_product.jpg">         
 
-          </div>`,
-    
-init: function() {
-    class Carousel {
-        constructor(element, imagePrefix, totalImages, startIndex = 1) {
-            this.element = element;
-            this.imagePrefix = imagePrefix;
-            this.totalImages = totalImages;
-            this.currentIndex = startIndex;  // ← HIER: startIndex verwenden
-            this.startIndex = startIndex;    // ← und speichern
-            this.img = element.querySelector('img');
-            this.element.addEventListener('click', (e) => this.handleClick(e));
-        }
+              </div>`,
+        
+    init: function() {
+        class Carousel {
+            constructor(element, imagePrefix, totalImages, startIndex = 1) {
+                this.element = element;
+                this.imagePrefix = imagePrefix;
+                this.totalImages = totalImages;
+                this.currentIndex = startIndex;  // ← HIER: startIndex verwenden
+                this.startIndex = startIndex;    // ← und speichern
+                this.img = element.querySelector('img');
+                this.element.addEventListener('click', (e) => this.handleClick(e));
+            }
 
-        handleClick(e) {
-            const rect = this.element.getBoundingClientRect();
-            const clickX = e.clientX - rect.left;
-            if (clickX < rect.width / 2) {
-                this.prev();
-            } else {
-                this.next();
+            handleClick(e) {
+                const rect = this.element.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                if (clickX < rect.width / 2) {
+                    this.prev();
+                } else {
+                    this.next();
+                }
+            }
+
+            next() {
+                this.currentIndex++;
+                if (this.currentIndex > this.startIndex + this.totalImages - 1) {
+                    this.currentIndex = this.startIndex;
+                }
+                this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
+            }
+
+            prev() {
+                this.currentIndex--;
+                if (this.currentIndex < this.startIndex) {
+                    this.currentIndex = this.startIndex + this.totalImages - 1;
+                }
+                this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
             }
         }
 
-        next() {
-            this.currentIndex++;
-            if (this.currentIndex > this.startIndex + this.totalImages - 1) {
-                this.currentIndex = this.startIndex;
-            }
-            this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
-        }
-
-        prev() {
-            this.currentIndex--;
-            if (this.currentIndex < this.startIndex) {
-                this.currentIndex = this.startIndex + this.totalImages - 1;
-            }
-            this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
-        }
+        new Carousel(document.querySelector('.carousel'), 'bilder/work/14Mag', 119, 3);
+        //                                                                        ↑
+        //                                        Startet bei Bild 3 statt 1
     }
-
-    new Carousel(document.querySelector('.carousel'), 'bilder/work/14Mag', 119, 3);
-    //                                                                        ↑
-    //                                        Startet bei Bild 3 statt 1
-}
-  },
+      },
 
       'SMI': {
         title: 'Social Media Index',
@@ -1101,4 +1101,31 @@ init: function() {
               </div>`
       },
       
+      'PG': {
+        title: 'Archiv * zum Stöbern',
+        html: `<div class="index-detail">
+
+
+
+              <h2>
+              Coming soon. :))
+              </h2>
+
+
+              </div>`
+      },
+
+      'ST': {
+        title: 'Archiv * zum Stöbern',
+        html: `<div class="index-detail">
+
+
+
+              <h2>
+              Coming soon. :))
+              </h2>
+
+
+              </div>`
+      },
     };
