@@ -655,7 +655,7 @@ const DETAILS = {
               </div>`
       },
     
-      'PL': {
+      'P': {
         title: 'Paphos kai Limassol',
         html: `<div class="index-detail">
 
