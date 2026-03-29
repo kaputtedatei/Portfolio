@@ -114,7 +114,7 @@ function resetGridItemsOpacity() {
 const timelineData = [
     { id: "BA", year: 2025, categories: ["E"] },
     { id: "P", year: 2025, categories: ["F"] },
-    { id: "PP", year: 2025, categories: ["S", "F", "B"] },
+    { id: "PP", year: 2025, categories: ["S", "F"] },
     { id: "SMI", year: 2026, categories: ["W"] },
     { id: "M", year: 2025, categories: ["T"] },
     { id: "VR", year: 2024, categories: ["B", "F", "E", "W"] },
