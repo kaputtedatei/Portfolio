@@ -1102,14 +1102,152 @@ const DETAILS = {
       },
       
       'PG': {
-        title: 'Archiv * zum Stöbern',
+        title: 'Palmengarten Frankfurt',
         html: `<div class="index-detail">
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/pg_post1.jpg">
+                <figcaption>
+                Template für Infoposts
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/pg_post2.jpg">
+                <figcaption>
+                Template für textliche Posts
+                </figcaption>
+              </div>
+              </div>
+
+
+              <h2>
+              Ruhige und naturnahe Rückzugsorte innerhalb der Stadt werden für uns immer wichtiger. Durch einen schnell getakteten Alltag und scheinbar immer mehr Entscheidungen, die getroffen werden müssen fehlt es uns an Momenten des Durchatmens. Aus diesem Grund bin ich der Meinung, dass botanische Gärten stärker gefördert und jungen Generationen zugänglich gemacht werden sollten. Da ich selbst Pflanzen liebe und von einem vergangenen Trip nach Frankfurt noch Bilder vom Garten hatte, entschied ich mich, ihn als Thema für ein fiktives Rebranding zu wählen. Besonders wichtig war mir hierbei der Social Media Auftritt, durch den junge Menschen auf den botanischen Garten aufmerksam gemacht und für ihn begeistert werden können.
+              </h2>
+
+
+              <img src="bilder/work/pg_mockup.jpg">
+              <figcaption>
+              Mockups der Instagram-Posts
+              </figcaption>
+
+
+              <img src="bilder/work/pg_logo.jpg">
+              <figcaption>
+              horizontale Version des modularen Logos
+              </figcaption>
+
+
+              <h2>
+              Das Logo des Palmengartens habe ich angelehnt an das aktuelle Logo gestaltet. Die Blätter oder Palmenwedel leiten sich aus dem Namen ab und können sowohl in Kombination mit der Wortmarke als auch alleinstehend verwendet werden. Da es sich bei dem Namen "Palmengarten" um ein relativ langes Wort handelt, bietet es sich an, den Text je nach Anwendung mal horizontal in einer Zeile, mal vertikal mit Umbrüchen als eine Art Turm anzuordnen. Diese Staffelung der Wortmarke spiegelt außerdem die verschiedenen Stockwerke des Urwalds wider.
+              </h2>
+
+
+              <img src="bilder/work/pg_tickets.jpg">
+              <figcaption>
+              Entwurf verschiedener Tickets
+              </figcaption>
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/pg_logo1.jpg">
+                <figcaption>
+                Logo-Entwurf, dunkel auf hell
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/pg_logo2.jpg">
+                <figcaption>
+                Logo-Entwurf, hell auf dunkel
+                </figcaption>
+              </div>
+              </div>
+
+
+              <img src="bilder/work/pg_desktop_mockup.jpg">
+              <figcaption>
+              Entwurf einer möglichen Website, Home
+              </figcaption>
+
+
+              <img src="bilder/work/pg_desktop_mockup2.jpg">
+              <figcaption>
+              Entwurf einer möglichen Website, "Ihr Besuch"
+              </figcaption>
+
 
 
 
               <h2>
-              Coming soon. :))
+              Den Palmengarten in Frankfurt zeichnen für mich besonders die Tropenhäuser und die dort repräsentierte Artenvielfalt aus. Doch auch der Außenbereich mit Blick auf Frankfurts Skyline ist wunderschön und artenreich. Die Farbigkeit der CI habe ich aus den Fotos entnommen, die ich selbst im Palmengarten gemacht habe. 
               </h2>
+
+
+              <div class="image-3">
+              <div> 
+                <img src="bilder/work/pg_post5.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/pg_post7.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/pg_post6.jpg">
+              </div>
+              </div>
+
+
+              <div class="image-3">
+              <div> 
+                <img src="bilder/work/pg_post3.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/pg_post8.jpg">
+                <figcaption>
+                Post für einen Pflanzentausch
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/pg_post4.jpg">
+              </div>
+              </div>
+
+
+              
+
+
+              <h2>
+              Botanische Gärten haben das Potenzial dazu, Menschen aller Altersgruppen und Hintergründe zusammenzubringen und für die Natur zu begeistern. Um dieses Potenzial auszuschöpfen bedarf es Design, das verschiedenste Menschen anspricht und die Vielseitigkeit und Wandelbarkeit eines Gartens widerspiegelt. 
+              </h2>
+
+              <div class="image-3">
+              <div> 
+                <img src="bilder/work/pg_blueten.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/pg_disteln.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/pg_kois.jpg">
+              </div>
+              </div>
+
+              <img src="bilder/work/pg_foto2.jpg">
+
+
+              <img src="bilder/work/pg_foto1.jpg">
+
+
+
+
+              <!-- <img src="bilder/work/pg_farben_logos.jpg">
+              <figcaption>
+              Spiel aus Logo und Farbigkeit
+              </figcaption> -->
+
+
+
 
 
               </div>`
