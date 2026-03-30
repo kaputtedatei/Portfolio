@@ -1150,11 +1150,17 @@ const DETAILS = {
               </figcaption>
 
 
-              <div class="image-2">
+              <div class="image-3">
               <div> 
                 <img src="bilder/work/pg_logo1.jpg">
                 <figcaption>
                 Logo-Entwurf, dunkel auf hell
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/pg_logo_mix.jpg">
+                <figcaption>
+                Logo-Entwurf, Palmwedel gespiegelt
                 </figcaption>
               </div>
               <div> 
