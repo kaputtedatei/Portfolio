@@ -1260,15 +1260,83 @@ const DETAILS = {
       },
 
       'ST': {
-        title: 'Archiv * zum Stöbern',
+        title: 'Stöbern',
         html: `<div class="index-detail">
 
 
 
               <h2>
-              Coming soon. :))
+              Have fun! :))
               </h2>
 
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st3.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st6.jpg">
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/st/st8.jpg">
+
+              <img src="bilder/work/st/st5.jpg">    
+
+              <img src="bilder/work/st/st7.jpg">
+
+              <img src="bilder/work/st/st12.jpg">
+
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st20.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st22.jpg">
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/st/st11.jpg">
+
+              <img src="bilder/work/st/st15.jpg">
+         
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st17.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st18.jpg">
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/st/st19.jpg">
+
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st23.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st16.jpg">
+              </div>
+              </div>
+
+
+              <img src="bilder/work/st/st21.jpg">
+
+              <img src="bilder/work/st/st24.jpg">
+
+              <img src="bilder/work/st/st25.jpg">
 
               </div>`
       },
