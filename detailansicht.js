@@ -1304,8 +1304,10 @@ const DETAILS = {
               <img src="bilder/work/st/st11.jpg">
 
               <img src="bilder/work/st/st15.jpg">
-         
+          
+              <img src="bilder/work/st/st32.jpg">
 
+            
 
               <div class="image-2">
               <div> 
@@ -1317,18 +1319,27 @@ const DETAILS = {
               </div>
 
 
+
+              <img src="bilder/work/st/st36.jpg">
+
+              <img src="bilder/work/st/st25.jpg">  
+
+              <img src="bilder/work/st/st43.jpg">
+
+              <img src="bilder/work/st/st46.jpg">
+
               <img src="bilder/work/st/st24.jpg">
 
-              <img src="bilder/work/st/st25.jpg">              
+
+
 
               <img src="bilder/work/st/st31.jpg">
 
-
-              <img src="bilder/work/st/st32.jpg">
-
               <img src="bilder/work/st/st19.jpg">
 
+              <img src="bilder/work/st/st48.jpg">
 
+              
 
               <div class="image-2">
               <div> 
@@ -1352,7 +1363,10 @@ const DETAILS = {
               </div>
               </div> -->
 
+
+
               <img src="bilder/work/st/st29.jpg">
+
 
 
 
