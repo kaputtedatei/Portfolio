@@ -1382,7 +1382,7 @@ const DETAILS = {
 
 
               <h2>
-              HUSH HUSH ist eine Konzertmanagement-Agentur, welche die Shows von Musiker*innen wie Apsilon, BANGERFABRIQUE oder auch Baran Kok produziert und bewirbt. Innerhalb eines freiwilligen Praktikums habe ich die Agentur, an die auch der CLub Bahnhof Ehrenfeld, sowie einige Festivals und Partyreihen gekoppelt sind, in den Bereichen Social Media, Branding und Fotografie unterstützt. 
+              HUSH HUSH ist eine Konzertmanagement-Agentur, welche die Shows von Musiker*innen wie Apsilon, BANGERFABRIQUE oder auch Baran Kok produziert und bewirbt. Innerhalb eines freiwilligen Praktikums habe ich die Agentur, an die auch der Club Bahnhof Ehrenfeld, sowie einige Festivals und Partyreihen gekoppelt sind, in den Bereichen Social Media, Branding und Fotografie unterstützt. 
               </h2>
 
               <div class="image-2">
@@ -1397,8 +1397,7 @@ const DETAILS = {
                 <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_wochenvorschau.mp4" type="video/mp4">
                 </video>
                 <figcaption>
-                 Ankündigungspost einer Party mit H.LLS <br> HUSH HUSH Crew <br>
-                </figcaption>
+                 Wochenvorschau der HUSH HUSH Konzerte </figcaption>
               </div>
               </div>
 
