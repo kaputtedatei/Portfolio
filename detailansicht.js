@@ -1382,111 +1382,76 @@ const DETAILS = {
 
 
               <h2>
-              Have fun! :))
+              HUSH HUSH ist eine Konzertmanagement-Agentur, welche die Shows von Musiker*innen wie Apsilon, BANGERFABRIQUE oder auch Baran Kok produziert und bewirbt. Innerhalb eines freiwilligen Praktikums habe ich die Agentur, an die auch der CLub Bahnhof Ehrenfeld, sowie einige Festivals und Partyreihen gekoppelt sind, in den Bereichen Social Media, Branding und Fotografie unterstützt. 
               </h2>
 
               <div class="image-2">
               <div> 
-                <img src="bilder/work/st/st3.jpg">
+                <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_highlights.mp4" type="video/mp4">
+                </video>
+                <figcaption>
+                Entwurf für Übersicht der Sommerhighlights <br> HUSH HUSH <br>
+                </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/st/st6.jpg">
+                <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_wochenvorschau.mp4" type="video/mp4">
+                </video>
+                <figcaption>
+                 Ankündigungspost einer Party mit H.LLS <br> HUSH HUSH Crew <br>
+                </figcaption>
               </div>
               </div>
 
 
-
-              <img src="bilder/work/st/st8.jpg">
-
-              <img src="bilder/work/st/st5.jpg">    
-
-              <img src="bilder/work/st/st7.jpg">
-
-              <img src="bilder/work/st/st12.jpg">
-
+              <h2>
+              Besonders cool am Praktikum war, dass ich in den verschiedensten Programmen arbeiten konnte: von Aftereffects über Photoshop bis hin zu Figma. Dabei hat es viel Spaß gemacht, in das Bearbeiten von Videos reinzuschnuppern. Dadurch, dass verschiedene Partyreihen des CLubs CBE verschiedene Zielgruppen erreichen sollten, konnte ich mich zudem kreativ austoben und verschiedene Styles anwenden.  
+              </h2>
 
 
               <div class="image-2">
               <div> 
-                <img src="bilder/work/st/st20.jpg">
+                <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_crew.mp4" type="video/mp4">
+                </video>
+                <figcaption>
+                 Ankündigungspost einer Party mit H.LLS <br> HUSH HUSH Crew <br>
+                </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/st/st22.jpg">
+                <img src="bilder/work/hh_crew.jpg">                
+                <figcaption>
+                 Entwurf zur Jahresübersicht der Events <br> HUSH HUSH Crew <br>
+                </figcaption>
               </div>
               </div>
 
 
+              <h2>
+              Meine Fotografiekenntnisse konnte ich ebenfalls ausbauen, in dem ich für HUSH HUSH neue Teamfotos erstellte. <a href="https://wearehush.de/about/#team" target="_blank" rel="noopener noreferrer"> → Teamfotos </a> Auch während des diesjährigen KDK Open Air war ich mit meiner Kamera unterwegs. 
+              </h2>
 
-              <img src="bilder/work/st/st11.jpg">
-
-              <img src="bilder/work/st/st15.jpg">
-          
-              <img src="bilder/work/st/st32.jpg">
-
-            
 
               <div class="image-2">
               <div> 
-                <img src="bilder/work/st/st33.jpg">
+                <img src="bilder/work/hh_kdk1.jpg">                
               </div>
               <div> 
-                <img src="bilder/work/st/st18.jpg">
+                <img src="bilder/work/hh_kdk2.jpg">                
               </div>
               </div>
 
+              <h2>
+              Eine Partyreihe an deren Design ich arbeitete war Korken&Klub. Ziel hierbei war es, eine diverse Zielgruppe in den CBE einzuladen und zum gemeinsamen Ansoßen zu motivieren. Auch wenn ziemlich schnell Tags auf dem Plakat landeten, ist es schön es gedruckt zu sehen. <a href="https://www.instagram.com/korkenundklub/" target="_blank" rel="noopener noreferrer"> → K&K Instagram </a> </h2>
+              </h2>
 
+              <img src="bilder/work/hh_k&k3.jpg">
+              <figcaption>
+              Plakat der Veranstaltungsreihe Korken&Klub <br> CBE
+              </figcaption>
 
-              <img src="bilder/work/st/st36.jpg">
-
-              <img src="bilder/work/st/st25.jpg">  
-
-              <img src="bilder/work/st/st43.jpg">
-
-              <img src="bilder/work/st/st46.jpg">
-
-              <img src="bilder/work/st/st24.jpg">
-
-
-
-
-              <img src="bilder/work/st/st31.jpg">
-
-              <img src="bilder/work/st/st19.jpg">
-
-              <img src="bilder/work/st/st48.jpg">
-
-              
-
-              <div class="image-2">
-              <div> 
-                <img src="bilder/work/st/st23.jpg">
-              </div>
-              <div> 
-                <img src="bilder/work/st/st16.jpg">
-              </div>
-              </div>
-
-
-              <img src="bilder/work/st/st21.jpg">
-
-
-              <!-- <div class="image-2">
-              <div> 
-                <img src="bilder/work/st/st27.jpg">
-              </div>
-              <div> 
-                <img src="bilder/work/st/st28.jpg">
-              </div>
-              </div> -->
-
-
-
-              <img src="bilder/work/st/st29.jpg">
-
-
-
-
-
+              <img src="bilder/work/hh_wm_plakat.jpg">
+              <figcaption>
+              Entwurf für Plakat zum Public Viewing im CBE
+              </figcaption>
 
               </div>`
       },
