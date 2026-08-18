@@ -1374,4 +1374,120 @@ const DETAILS = {
 
               </div>`
       },
+
+      'HH': {
+        title: 'HUSH HUSH',
+        html: `<div class="index-detail">
+
+
+
+              <h2>
+              Have fun! :))
+              </h2>
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st3.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st6.jpg">
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/st/st8.jpg">
+
+              <img src="bilder/work/st/st5.jpg">    
+
+              <img src="bilder/work/st/st7.jpg">
+
+              <img src="bilder/work/st/st12.jpg">
+
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st20.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st22.jpg">
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/st/st11.jpg">
+
+              <img src="bilder/work/st/st15.jpg">
+          
+              <img src="bilder/work/st/st32.jpg">
+
+            
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st33.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st18.jpg">
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/st/st36.jpg">
+
+              <img src="bilder/work/st/st25.jpg">  
+
+              <img src="bilder/work/st/st43.jpg">
+
+              <img src="bilder/work/st/st46.jpg">
+
+              <img src="bilder/work/st/st24.jpg">
+
+
+
+
+              <img src="bilder/work/st/st31.jpg">
+
+              <img src="bilder/work/st/st19.jpg">
+
+              <img src="bilder/work/st/st48.jpg">
+
+              
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st23.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st16.jpg">
+              </div>
+              </div>
+
+
+              <img src="bilder/work/st/st21.jpg">
+
+
+              <!-- <div class="image-2">
+              <div> 
+                <img src="bilder/work/st/st27.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/st/st28.jpg">
+              </div>
+              </div> -->
+
+
+
+              <img src="bilder/work/st/st29.jpg">
+
+
+
+
+
+
+              </div>`
+      },
     };

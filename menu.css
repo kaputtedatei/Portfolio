@@ -23,7 +23,6 @@
   font-size: 14px;
 }
 
-/* Hover / Fokus für besseres Feedback */
 .callme-button:hover {
   background: rgb(255, 78, 128);
   transition: 0.0s ease;
@@ -49,7 +48,6 @@
   padding: 0 10px; 
 }
 
-/* Hover / Fokus für besseres Feedback */
 .about-button:hover {
   background: rgb(255, 167, 192);
   transition: 0.0s ease;
@@ -59,6 +57,7 @@
 .about-button:active {
   transform: translateY(0);
 }
+
 
 
 .impressum-button {
@@ -72,7 +71,6 @@
   padding: 0 10px; 
 }
 
-/* Hover / Fokus für besseres Feedback */
 .impressum-button:hover {
   background: rgb(154, 154, 255);
   transition: 0.0s ease;
@@ -84,8 +82,10 @@
 }
 
 
+
+
 .arbeiten-button {
-  cursor: not-allowed;
+  cursor: pointer;
   background: rgb(0, 0, 0);
   transition: 0.0s ease;
   color: #fff;
@@ -96,7 +96,6 @@
   font-size: 14px;
 }
 
-/* Hover / Fokus für besseres Feedback */
 .arbeiten-button:hover {
   background: rgb(64, 64, 64);
   transition: 0.0s ease;
@@ -106,6 +105,9 @@
 .arbeiten-button:active {
   transform: translateY(0);
 }
+
+
+
 
 
 
