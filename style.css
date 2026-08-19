@@ -298,7 +298,8 @@ scrollbar-width: none;
 }
 
 .close-btn:hover {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 78, 128);
+  color: #00f !important;
   border-radius: 8px;
 }
 

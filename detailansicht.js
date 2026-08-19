@@ -1390,7 +1390,7 @@ const DETAILS = {
                 <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_highlights.mp4" type="video/mp4">
                 </video>
                 <figcaption>
-                Entwurf für Übersicht der Sommerhighlights <br> HUSH HUSH <br>
+                Entwurf für Übersicht der Sommerhighlights von HUSH HUSH
                 </figcaption>
               </div>
               <div> 
@@ -1412,13 +1412,13 @@ const DETAILS = {
                 <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_crew.mp4" type="video/mp4">
                 </video>
                 <figcaption>
-                 Ankündigungspost einer Party mit H.LLS <br> HUSH HUSH Crew <br>
+                 Ankündigungspost einer Party mit H.LLS, HUSH HUSH Crew
                 </figcaption>
               </div>
               <div> 
                 <img src="bilder/work/hh_crew.jpg">                
                 <figcaption>
-                 Entwurf zur Jahresübersicht der Events <br> HUSH HUSH Crew <br>
+                 Entwurf zur Jahresübersicht der Events, HUSH HUSH Crew
                 </figcaption>
               </div>
               </div>
@@ -1444,7 +1444,7 @@ const DETAILS = {
 
               <img src="bilder/work/hh_k&k3.jpg">
               <figcaption>
-              Plakat der Veranstaltungsreihe Korken&Klub <br> CBE
+              Plakat der Veranstaltungsreihe Korken&Klub, CBE
               </figcaption>
 
               <img src="bilder/work/hh_wm_plakat.jpg">
