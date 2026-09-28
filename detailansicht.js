@@ -1454,4 +1454,75 @@ const DETAILS = {
 
               </div>`
       },
+
+            'NH': {
+        title: '日本',
+        html: `<div class="index-detail">
+
+
+              <div class="image-3">
+              <div> 
+                <img src="bilder/work/nh6.jpg">
+                <figcaption>
+                bewachter Schrein, Kyoto
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/nh2.jpg">
+                <figcaption>
+                Verkehr, Osaka
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/nh9.jpg">
+                <figcaption>
+                Auto, Matsumoto
+                </figcaption>
+              </div>
+              </div>
+
+
+
+              <img src="bilder/work/nh4.jpg">
+                <figcaption>
+              Pärchen, Osaka
+              </figcaption>
+
+
+              <h2>
+              Uralte Tempel, Seven Eleven, riesige bunte Schmetterlinge, Wolkenkratzer, Männer in Anzügen, leise Metro. Meine kurze Reise durch Japan war vor allem durch Gegensätze geprägt. Mich faszinieren die Menschen und ihr Zusammenlenben, aber auch die Natur, deren Lebewesen und die Religion, die sie verehrt. 
+              </h2>
+
+              <img src="bilder/work/nh8.jpg">
+                <figcaption>
+              Umland von Hiroshima, gesehen von Miyajima <br>
+              </figcaption>
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/nh7.jpg">
+                <figcaption>
+                Schreine im Wald, Kyoto
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/nh1.jpg">
+                <figcaption>
+                Osaka Castle
+                </figcaption>
+              </div>
+              </div>
+
+              <h2>
+              Die Stadt ist für mich ein überfordernder, schneller und lauter Ort, der zwar nie stillsteht aber sich auch nie wirklich verändert. Der es vielleicht durch all die Leuchtreklame gar nicht zulässt, dass die Menschen sich verändern. Die Wälder sind zwar vom Zirpen der Zikaden erfüllt, aber ruhig und friedlich. Zum ersten Mal bin ich in diesem Land alleine. Ich frage mich, wie ich hier und auch zuhause mein Gleichgewicht aus Arbeit und Konsum und alldem was von mir erwartet wird und dem, was ich wirklich will und was ich wirklich fühle und was wirklich echt ist finde. Ich frage mich, wie es sich anfühlt, Japaner*in zu sein.
+              </h2> 
+
+              <img src="bilder/work/nh5.jpg">
+              <figcaption>
+              verregnetes Osaka
+              </figcaption>
+
+              </div>`
+      },
     };
