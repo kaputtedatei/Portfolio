@@ -1515,7 +1515,7 @@ const DETAILS = {
               </div>
 
               <h2>
-              Die Stadt ist für mich ein überfordernder, schneller und lauter Ort, der zwar nie stillsteht aber sich auch nie wirklich verändert. Der es vielleicht durch all die Leuchtreklame gar nicht zulässt, dass die Menschen sich verändern. Die Wälder sind zwar vom Zirpen der Zikaden erfüllt, aber ruhig und friedlich. Zum ersten Mal bin ich in diesem Land alleine. Ich frage mich, wie ich hier und auch zuhause mein Gleichgewicht aus Arbeit und Konsum und alldem was von mir erwartet wird und dem, was ich wirklich will und was ich wirklich fühle und was wirklich echt ist finde. Ich frage mich, wie es sich anfühlt, Japaner*in zu sein.
+              Die Stadt ist für mich ein überfordernder, schneller und lauter Ort, der zwar nie stillsteht, aber sich auch nie wirklich verändert. Der es vielleicht durch all die Leuchtreklame gar nicht zulässt, dass ich mich verändere. Die Wälder sind zwar vom Zirpen der Zikaden erfüllt, aber ruhig und friedlich. Zum ersten Mal bin ich in diesem Land alleine. Ich frage mich, wie ich hier und auch zuhause mein Gleichgewicht aus Arbeit und Konsum und alldem was von mir erwartet wird und dem, was ich wirklich will und was ich wirklich fühle und was wirklich echt ist finde. Ich frage mich, wie es sich anfühlt Japaner*in zu sein.
               </h2> 
 
               <img src="bilder/work/nh5.jpg">
