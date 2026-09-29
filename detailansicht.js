@@ -1409,14 +1409,13 @@ const DETAILS = {
 
               <div class="image-2">
               <div> 
-                <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_crew.mp4" type="video/mp4">
-                </video>
+                <img src="bilder/work/hh_crew2.jpg">                
                 <figcaption>
-                 Ankündigungspost einer Party mit H.LLS, HUSH HUSH Crew
+                 Entwurf zur Jahresübersicht der Events, HUSH HUSH Crew
                 </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/hh_crew.jpg">                
+                <img src="bilder/work/hh_crew_edit.jpg">                
                 <figcaption>
                  Entwurf zur Jahresübersicht der Events, HUSH HUSH Crew
                 </figcaption>
@@ -1431,7 +1430,11 @@ const DETAILS = {
 
               <div class="image-2">
               <div> 
-                <img src="bilder/work/hh_kdk1.jpg">                
+                <video class="dynamic-image" style="width: 100%; margin-top: 0em;" autoplay muted loop> <source src="bilder/work/hh_crew.mp4" type="video/mp4">
+                </video>
+                  <figcaption>
+                    Ankündigungspost einer Party mit H.LLS, HUSH HUSH Crew
+                  </figcaption>
               </div>
               <div> 
                 <img src="bilder/work/hh_kdk2.jpg">                
@@ -1442,10 +1445,28 @@ const DETAILS = {
               Eine Partyreihe an deren Design ich arbeitete war Korken&Klub. Ziel hierbei war es, eine diverse Zielgruppe in den CBE einzuladen und zum gemeinsamen Ansoßen zu motivieren. Auch wenn ziemlich schnell Tags auf dem Plakat landeten, ist es schön es gedruckt zu sehen. <a href="https://www.instagram.com/korkenundklub/" target="_blank" rel="noopener noreferrer"> → K&K Instagram </a> </h2>
               </h2>
 
+              
               <img src="bilder/work/hh_k&k3.jpg">
               <figcaption>
               Plakat der Veranstaltungsreihe Korken&Klub, CBE
               </figcaption>
+
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/hh_k&k2.jpg">                
+              </div>
+              <div> 
+                <img src="bilder/work/hh_k&k.jpg">                
+              </div>
+              </div>
+
+              
+              <h2>
+              Auch für die Fußball-WM 2026 habe ich Grafiken erstellt, die ein buntes Publikum in den CBE locken sollten. Ziel war hierbei eine an die WM 2014 Ästhetik.  
+              </h2>
+
 
               <img src="bilder/work/hh_wm_plakat.jpg">
               <figcaption>
@@ -1455,7 +1476,7 @@ const DETAILS = {
               </div>`
       },
 
-            'NH': {
+      'NH': {
         title: '日本',
         html: `<div class="index-detail">
 
