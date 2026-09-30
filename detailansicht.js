@@ -1437,7 +1437,10 @@ const DETAILS = {
                   </figcaption>
               </div>
               <div> 
-                <img src="bilder/work/hh_kdk2.jpg">                
+                <img src="bilder/work/hh_kdk2.jpg">      
+                  <figcaption>
+                    Während Baran Koks Auftritt, KDK Open Air 2026
+                  </figcaption>          
               </div>
               </div>
 
@@ -1461,17 +1464,6 @@ const DETAILS = {
                 <img src="bilder/work/hh_k&k.jpg">                
               </div>
               </div>
-
-              
-              <h2>
-              Auch für die Fußball-WM 2026 habe ich Grafiken erstellt, die ein buntes Publikum in den CBE locken sollten. Ziel war hierbei eine an die WM 2014 Ästhetik.  
-              </h2>
-
-
-              <img src="bilder/work/hh_wm_plakat.jpg">
-              <figcaption>
-              Entwurf für Plakat zum Public Viewing im CBE
-              </figcaption>
 
               </div>`
       },
