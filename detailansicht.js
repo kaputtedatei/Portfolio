@@ -53,14 +53,6 @@ const DETAILS = {
               Was können wir tun?"
               </h2>
 
-              <div class="carousel">
-                  <img src="bilder/work/14Mag3.jpg">
-              </div>
-
-              <h2>
-              Hier kannst du dich durch die Inhalte des Magazins klicken. :) <br>
-              Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite. 
-              </h2>
 
               <img src="bilder/work/ba_text.jpg">     
               <figcaption>
@@ -69,7 +61,18 @@ const DETAILS = {
 
               <img src="bilder/work/ba_heart.jpg">
 
-              <img src="bilder/work/ba_product.jpg">         
+              <img src="bilder/work/ba_product.jpg">
+              
+              <h2>
+              Hier kannst du dich durch die Inhalte des Magazins klicken. :) <br>
+              Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite. 
+              </h2>
+
+              <div class="carousel">
+                  <img src="bilder/work/14Mag3.jpg">
+              </div>
+
+
 
               </div>`,
         
@@ -128,7 +131,7 @@ const DETAILS = {
               <h2 style="margin-top: 2em;">
               Der SMI (Social Media Index) ist eine Sammlung von Social Media
               Plattformen, die sortiert und gefiltert werden können. Er verfügt über die experimentell gecodeten Seiten index.html, hof.html und glossar.hmtl.
-              Mein Ziel für dieses Projekt war es, die Grundlagen von HTML und CSS zu erlernen. Parallel habe ich erprobt, inwiefern man als Designer*in Webdesign neu interpretieren und mit Fehlern im Code arbeiten kann. Mein Lernprozess, die verwendeten Tools und meine Erkenntnisse aus dem Experiment habe ich im beiligenden Heft dokumentiert.
+              Mein Ziel für dieses Projekt war es, die Grundlagen von HTML und CSS zu erlernen. Parallel habe ich erprobt, inwiefern man als Designer*in Webdesign neu interpretieren und mit Fehlern im Code arbeiten kann.
               </h2>
 
 
@@ -153,6 +156,53 @@ const DETAILS = {
               </figcaption>
 
 
+              <h2 style="margin-top: 2em;">
+              Was ich durch den SMI gelernt habe, habe ich in einem Begleitheft festgehalten. Es lässt sich als eine grundlegende Anleitung zur Erstellung von Websites mithilfe von Code lesen. Durch das Erstellen des Hefts habe ich mich deutlich mehr mit HTML und CSS auseinandergesetzt, als ich es sonst getan hätte. Auch die Stellen des Codes, die KI für mich geschrieben hat, habe ich versucht nachzuvollziehen.
+              </h2>
+
+
+              <img src="bilder/work/smi_buch4.jpg">
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/smi_buch2.jpg">
+                <figcaption>
+                Bund des Anleitunghefts zu „Social Media Index“ <br>
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/smi_buch3.jpg">
+                <figcaption>
+                Rückseite des Anleitungshefts <br>
+                </figcaption>
+              </div>
+              </div>
+
+
+              <img src="bilder/work/smi_buch6.jpg">
+
+
+              <img src="bilder/work/smi_buch7.jpg">
+              <figcaption>
+              Inhalte des Glossars, Zuordnung zu HTML, CSS oder JavaScript <br>
+              </figcaption>
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/smi_code2.jpg">
+                <figcaption>
+                Experiment mit Ausschnitt des Codes auf Transparentpapier <br>
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/smi_code3.jpg">
+                <figcaption>
+                Ausschnitte aus glossar.css und style.css <br>
+                </figcaption>
+              </div>
+              </div>
 
               </div>`
       },
@@ -1535,6 +1585,7 @@ const DETAILS = {
               <figcaption>
               verregnetes Osaka
               </figcaption>
+
 
               </div>`
       },
