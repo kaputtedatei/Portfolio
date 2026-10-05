@@ -1,3 +1,41 @@
+class Carousel {
+ constructor(element, imagePrefix, totalImages, startIndex = 1) {
+   this.element = element;
+   this.imagePrefix = imagePrefix;
+   this.totalImages = totalImages;
+   this.currentIndex = startIndex;
+   this.startIndex = startIndex;
+   this.img = element.querySelector('img');
+   this.element.addEventListener('click', (e) => this.handleClick(e));
+ }
+
+ handleClick(e) {
+   const rect = this.element.getBoundingClientRect();
+   const clickX = e.clientX - rect.left;
+   if (clickX < rect.width / 2) {
+     this.prev();
+   } else {
+     this.next();
+   }
+ }
+
+ next() {
+   this.currentIndex++;
+   if (this.currentIndex > this.startIndex + this.totalImages - 1) {
+     this.currentIndex = this.startIndex;
+   }
+   this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
+ }
+
+ prev() {
+   this.currentIndex--;
+   if (this.currentIndex < this.startIndex) {
+     this.currentIndex = this.startIndex + this.totalImages - 1;
+   }
+   this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
+ }
+}
+
 const DETAILS = {
       'BA': {
         title: 'Bachelorarbeit',
@@ -63,10 +101,12 @@ const DETAILS = {
 
               <img src="bilder/work/ba_product.jpg">
               
-              <h2>
-              Hier kannst du dich durch die Inhalte des Magazins klicken. :) <br>
-              Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite. 
+
+              <h2 style="background: #00f; color: #fff !important; padding: 3px 10px;">
+              Hier kannst du dich durch die Inhalte des Hefts klicken. :) <br>
+              Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite.
               </h2>
+
 
               <div class="carousel">
                   <img src="bilder/work/14Mag3.jpg">
@@ -77,47 +117,7 @@ const DETAILS = {
               </div>`,
         
     init: function() {
-        class Carousel {
-            constructor(element, imagePrefix, totalImages, startIndex = 1) {
-                this.element = element;
-                this.imagePrefix = imagePrefix;
-                this.totalImages = totalImages;
-                this.currentIndex = startIndex;  // ← HIER: startIndex verwenden
-                this.startIndex = startIndex;    // ← und speichern
-                this.img = element.querySelector('img');
-                this.element.addEventListener('click', (e) => this.handleClick(e));
-            }
-
-            handleClick(e) {
-                const rect = this.element.getBoundingClientRect();
-                const clickX = e.clientX - rect.left;
-                if (clickX < rect.width / 2) {
-                    this.prev();
-                } else {
-                    this.next();
-                }
-            }
-
-            next() {
-                this.currentIndex++;
-                if (this.currentIndex > this.startIndex + this.totalImages - 1) {
-                    this.currentIndex = this.startIndex;
-                }
-                this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
-            }
-
-            prev() {
-                this.currentIndex--;
-                if (this.currentIndex < this.startIndex) {
-                    this.currentIndex = this.startIndex + this.totalImages - 1;
-                }
-                this.img.src = `${this.imagePrefix}${this.currentIndex}.jpg`;
-            }
-        }
-
         new Carousel(document.querySelector('.carousel'), 'bilder/work/14Mag', 119, 3);
-        //                                                                        ↑
-        //                                        Startet bei Bild 3 statt 1
     }
       },
 
@@ -204,7 +204,27 @@ const DETAILS = {
               </div>
               </div>
 
-              </div>`
+
+
+              <h2 style="background: #00f; color: #fff !important; padding: 3px 10px;">
+              Hier kannst du dich durch die Inhalte des Hefts klicken. :) <br>
+              Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite.
+              </h2>
+
+              <div class="carousel">
+                  <img src="bilder/work/SMI_Heft_Doppelseiten2.jpg">
+              </div>
+
+
+              </div>`,
+        init: function() {
+          new Carousel(
+            document.querySelector('.carousel'),
+            'bilder/work/SMI_Heft_Doppelseiten',
+            55,
+            2
+          );
+        }
       },
     
       'M': {
