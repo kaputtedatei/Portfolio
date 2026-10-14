@@ -245,6 +245,31 @@ const DETAILS = {
               </h2>
 
 
+
+
+              <section class="font-tester">
+                      <div class="ft-controls">
+                      <div class="ft-preview" contenteditable="true" spellcheck="false">
+                        Jinxed wizards pluck ivy from the big quilt.
+                      </div>
+
+                        <label>
+                          Schriftgröße
+                          <input type="range" class="ft-size" min="40" max="200" value="80">
+                          <output>80 px</output>
+                        </label>
+
+                        <label class="ft-check">
+                          <input type="checkbox" class="ft-caps">
+                          All Caps
+                        </label>
+                      </div>
+
+
+                    </section>
+
+              
+
               <img src="bilder/work/m_collage.jpg">
               <figcaption>
               Zusammemgesetzte Buchstaben und Schriftzeichen von Mañana, <br> einer mal abgerundeten, mal eckigen Groteskschrift

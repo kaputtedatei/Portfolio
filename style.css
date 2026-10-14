@@ -511,3 +511,133 @@ a:hover {
 
 
 
+@font-face {
+  font-family: "Manana";
+  src: url("fonts/Test4.ttf") format("truetype");
+  font-display: swap;
+}
+
+.font-tester {
+  --ft-size: 80px;
+  --ft-caps: none;
+  max-width: 900px;
+  margin: 5em 0;
+}
+
+.ft-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 2em;
+
+  /* ANPASSEN: Farben der Bedienelemente */
+  --ctrl-color: #00f;   /* Griff, Checkbox-Rahmen und -Füllung */
+  --ctrl-track: #00f;   /* Schiene des Sliders */
+}
+
+.ft-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.ft-controls .ft-check {
+  flex-direction: row;
+  align-items: center;   /* Checkbox und Text auf einer Höhe */
+  cursor: pointer;
+}
+
+.ft-controls output {
+  color: #00f;
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* ================= SLIDER ================= */
+
+.ft-size {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 400px;          /* ANPASSEN: Länge des Sliders */
+  height: 24px;          /* Klickfläche, am besten nicht ändern */
+}
+
+/* Schiene (Chrome, Edge, Safari) */
+.ft-size::-webkit-slider-runnable-track {
+  height: 2px;           /* ANPASSEN: Dicke der Schiene */
+  background: var(--ctrl-track);
+}
+
+/* Schiene (Firefox) */
+.ft-size::-moz-range-track {
+  height: 2px;           /* ANPASSEN: gleicher Wert wie oben */
+  background: var(--ctrl-track);
+}
+
+/* Griff (Chrome, Edge, Safari) */
+.ft-size::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;           /* ANPASSEN: Größe des Griffs */
+  height: 12px;          /* ANPASSEN: gleicher Wert wie Breite */
+  margin-top: -8px;      /* Zentriert den Griff: (Schiene − Griff) / 2. Bei 18px Griff und 2px Schiene = -8px */
+  border: none;
+  background: var(--ctrl-color);
+}
+
+/* Griff (Firefox) */
+.ft-size::-moz-range-thumb {
+  width: 12px;           /* ANPASSEN: gleicher Wert wie oben */
+  height: 12px;          /* ANPASSEN: gleicher Wert wie oben */
+  border: none;
+  background: var(--ctrl-color);
+}
+
+
+/* ================= CHECKBOX ================= */
+
+.ft-caps {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  margin: 0;
+  width: 20px;           /* ANPASSEN: Größe der Checkbox */
+  height: 20px;          /* ANPASSEN: gleicher Wert wie Breite */
+  border: 2px solid var(--ctrl-color);  /* ANPASSEN: Rahmendicke */
+  border-radius: 4px;    /* ANPASSEN: 0 = eckig, 50% = rund */
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Zustand: angehakt */
+.ft-caps:checked {
+  background: var(--ctrl-color);
+}
+
+/* Häkchen */
+.ft-caps:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid #00f;    /* ANPASSEN: Farbe des Häkchens */
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+/* ================= VORSCHAU ================= */
+
+.ft-preview {
+  min-height: 150px;
+  overflow-wrap: anywhere;
+  font-family: "Manana", "Helvetica Neue", Arial, sans-serif;
+  font-size: var(--ft-size);
+  text-transform: var(--ft-caps);
+  color: #111;
+}
+
+.ft-preview:focus { color: #ff47a7; outline: none; }

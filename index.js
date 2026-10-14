@@ -572,3 +572,25 @@ document.querySelectorAll('img[loading="lazy"]').forEach(img => {
     img.classList.add('loaded');
   });
 });
+
+
+
+
+
+// Schriftart-Tester: funktioniert auch bei dynamisch eingefügtem HTML
+// Schriftgröße
+document.addEventListener("input", (e) => {
+  if (!e.target.matches(".font-tester .ft-size")) return;
+
+  const tester = e.target.closest(".font-tester");
+  tester.style.setProperty("--ft-size", e.target.value + "px");
+  e.target.parentElement.querySelector("output").textContent = e.target.value + " px";
+});
+
+// All Caps
+document.addEventListener("change", (e) => {
+  if (!e.target.matches(".font-tester .ft-caps")) return;
+
+  const tester = e.target.closest(".font-tester");
+  tester.style.setProperty("--ft-caps", e.target.checked ? "uppercase" : "none");
+});
