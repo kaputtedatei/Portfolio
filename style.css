@@ -525,7 +525,7 @@ a:hover {
 }
 
 .ft-controls {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   align-items: flex-end;
   gap: 2em;
