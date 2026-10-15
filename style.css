@@ -13,6 +13,12 @@ body {
   height: 100vh;
 }
 
+.container-about {
+  display: grid;
+  grid-template-columns: 2.2fr 4fr;
+  height: 100vh;
+}
+
 img[loading="lazy"] {
   filter: blur(10px);
   transition: filter 0.3s;
