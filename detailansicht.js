@@ -100,6 +100,22 @@ const DETAILS = {
               </figcaption>
 
 
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/ba3.jpg">
+                <figcaption>
+                Ausschnitt im Cover erinnert an spiegelndes Smartphone <br>
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/ba4.jpg">
+                <figcaption>
+                verschiedenfarbige Ränder unterteilen die fünf Kapitel <br>
+                </figcaption>
+              </div>
+              </div>
+
+
               <div class="image-3">
               <div> 
                 <img src="bilder/work/ba_ausstellung3.jpg">
