@@ -41,11 +41,64 @@ const DETAILS = {
         title: 'Bachelorarbeit',
         html: `<div class="index-detail">
 
-              <img src="bilder/work/ba.jpg">
+              <img src="bilder/work/ba2.jpg">
               <figcaption>
               Fertiges Magazin  „Wie überlebe ich mit Smartphone? Ein postdigitaler Survival-Guide"<br>  
               <a href="https://www.diploma-ac.de/projekte/wie-ueberlebe-ich-mit-smartphone/" target="_blank" rel="noopener noreferrer"> → Website der FH Werkschau </a>
               </figcaption>
+              
+              <div class="image-3">
+              <div> 
+                <img src="bilder/work/ba_hand.jpg">
+                <figcaption>
+                Cover der Publikation mit Spiegelfolie <br>
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/ba_hand3.jpg">
+              </div>
+              <div> 
+                <img src="bilder/work/ba_hand2.jpg">
+                </div>
+              </div>
+
+                            <h2>
+              Dieses Magazin ist im Rahmen meiner Bachelorarbeit entstanden und setzt sich mit zentralen Fragestellungen des Digitalzeitalters auseinander. 
+              Es beleuchtet unsere alltägliche Smartphone-Nutzung auf spielerische und zugleich kritische Weise, wobei die sozialen Medien im Fokus stehen. 
+              </h2>
+              <h2 style="text-indent: 5em;">
+              Durch suchtförderndes Design ziehen uns TikTok, Instagram und Co. oft in endlose Scroll-Schleifen und rauben uns wertvolle Zeit. 
+              Außerdrem erschweren die Verbreitung von Desinformation und der wachsende Einfluss von KI es uns, online Fakten zu erkennen.
+              Die Publikation dient hierbei als Hilfestellung, um den digitalen Raum sicher und reflektiert zu navigieren, und bietet praxisnahe Tipps 
+              in den Bereichen Medienkompetenz, Gewohnheitsbildung und Achtsamkeit. Durch Quizze und Persönlichkeitstests werden die Lesenden aktiv 
+              eingebunden und interaktive Elemente digitaler Plattformen aufgegriffen.
+              </h2>
+
+
+
+              <img src="bilder/work/ba_heart.jpg">
+              <figcaption>
+              Einblicke in Einzelseiten des Magazins <br>
+              </figcaption>
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/ba_hand5.jpg">
+                <figcaption>
+                eine der fünf Kapitelseiten <br>
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/ba_hand4.jpg">
+              </div>
+              </div>
+
+
+              <img src="bilder/work/ba_product.jpg">
+              <figcaption>
+              Typografische Zwischenseiten mit persönlichen Gedanken und Kommentaren zu zuvor verwendeten Artikeln <br>
+              </figcaption>
+
 
               <div class="image-3">
               <div> 
@@ -62,22 +115,6 @@ const DETAILS = {
                 </div>
               </div>
 
-              <h2>
-              Dieses Magazin ist im Rahmen meiner Bachelorarbeit entstanden und setzt sich mit zentralen Fragestellungen des Digitalzeitalters auseinander. 
-              Es beleuchtet unsere alltägliche Smartphone-Nutzung auf spielerische und zugleich kritische Weise, wobei die sozialen Medien im Fokus stehen. 
-              </h2>
-              <h2 style="text-indent: 5em;">
-              Durch suchtförderndes Design ziehen uns TikTok, Instagram und Co. oft in endlose Scroll-Schleifen und rauben uns wertvolle Zeit. 
-              Außerdrem erschweren die Verbreitung von Desinformation und der wachsende Einfluss von KI es uns, online Fakten zu erkennen.
-              Die Publikation dient hierbei als Hilfestellung, um den digitalen Raum sicher und reflektiert zu navigieren, und bietet praxisnahe Tipps 
-              in den Bereichen Medienkompetenz, Gewohnheitsbildung und Achtsamkeit. Durch Quizze und Persönlichkeitstests werden die Lesenden aktiv 
-              eingebunden und interaktive Elemente digitaler Plattformen aufgegriffen.
-              </h2>
-
-              <img src="bilder/work/ba_doppelseiten.jpg">
-              <figcaption>
-              Meine Lieblings-Doppelseiten des Magazins :) <br>
-              </figcaption>
 
               <h2>
               „Reel: weiterscrollen. Tinder-Profil: wegswipen. Song: skippen. Trendy Kleidung: bestellen und nach einem Jahr wegwerfen. Job: wechseln. Beziehung: beenden, um neue Erfahrungen zu machen. Planeten: zerstören und abwarten, ob er wie durch ein Wunder gerettet wird.
@@ -92,17 +129,22 @@ const DETAILS = {
               </h2>
 
 
+              <img src="bilder/work/ba_doppelseiten.jpg">
+              <figcaption>
+              Meine Lieblings-Doppelseiten des Magazins :) <br>
+              </figcaption>
+
+
+
+
               <img src="bilder/work/ba_text.jpg">     
               <figcaption>
               Einblicke in Einzelseiten des Magazins <br>
               </figcaption>
 
-              <img src="bilder/work/ba_heart.jpg">
-
-              <img src="bilder/work/ba_product.jpg">
               
 
-              <h2 style="background: #00f; color: #fff !important; padding: 3px 10px;">
+              <h2 style="color: #00f !important;">
               Hier kannst du dich durch die Inhalte des Hefts klicken. :) <br>
               Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite.
               </h2>
@@ -206,7 +248,7 @@ const DETAILS = {
 
 
 
-              <h2 style="background: #00f; color: #fff !important; padding: 3px 10px;">
+              <h2 style="color: #00f !important;">
               Hier kannst du dich durch die Inhalte des Hefts klicken. :) <br>
               Klick auf rechte Bildhälfte: nächste Seite, linke Bildhälfte: vorherige Seite.
               </h2>
