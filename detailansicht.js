@@ -888,12 +888,15 @@ const DETAILS = {
               <div class="image-2">
               <div> 
                 <img src="bilder/work/px4.jpg">
-              <figcaption>
-              Pixie kann pixelig und hart, aber auch sanft und fließend wirken
-              </figcaption>
+                <figcaption>
+                Pixie kann pixelig und hart,
+                </figcaption>
               </div>
               <div> 
                 <img src="bilder/work/px4.2.jpg">
+                <figcaption>
+                aber auch sanft und fließend wirken
+                </figcaption>
               </div>
               </div>
 
@@ -910,6 +913,10 @@ const DETAILS = {
               Pixie in Outlines, unfarbig und abgerundet <br> mit einer deutlich veränderten Wirkung
               </figcaption>
 
+              <img src="bilder/work/px2.jpg">
+              <figcaption>
+              Ich liebe einfach Gs
+              </figcaption>
 
 
 
@@ -1064,10 +1071,10 @@ const DETAILS = {
               der RWTH Aachen habe ich besonders im Bereich Informationsdesign viel gelernt. Durch die Zusammenarbeit
               mit den angestellten Forschenden habe ich außerdem erste Erfahrungen mit professionellen Briefings gesammelt.
               Ich konnte nicht nur meine Kenntnisse im Umgang mit Adobe Illustrator erweitern, sondern auch im Social 
-              Media Team mithelfen, den Großteil der Teamfotos anfertigen und die Website des Instituts anhand eines CMS updaten.
+              Media Team mithelfen, den Großteil der <a href="https://www.ltt.rwth-aachen.de/cms/LTT/Der-Lehrstuhl/~ivnu/Team/" target="_blank" rel="noopener noreferrer"> → Teamfotos </a> anfertigen und die Website des Instituts anhand eines CMS updaten.
               </h2>
 
-              <h2> <br> <a href="https://www.ltt.rwth-aachen.de/cms/LTT/Der-Lehrstuhl/~ivnu/Team/" target="_blank" rel="noopener noreferrer"> → Teamfotos </a> </h2>
+              
 
 
 
@@ -1775,6 +1782,9 @@ const DETAILS = {
               </div>
               <div> 
                 <img src="bilder/work/zm7.jpg">
+                <figcaption>
+                Gummibärchen             
+                </figcaption>
               </div>
               </div>
 
