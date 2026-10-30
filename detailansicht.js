@@ -880,6 +880,30 @@ const DETAILS = {
         title: 'Pixie',
         html: `<div class="index-detail">
 
+              <img src="bilder/work/px1.jpg">
+              <figcaption>
+              Versalien von Pixie
+              </figcaption>
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/px4.jpg">
+              <figcaption>
+              Pixie kann pixelig und hart, aber auch sanft und fließend wirken
+              </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/px4.2.jpg">
+              </div>
+              </div>
+
+              <h2>
+              Eine eigene Font entwerfen? Hat jede*r Designer*in mal versucht. Mañana is noch ein Work-in-Progress. 
+              Sie zeichnet sich vor allem durch den starken Kontrast zwischen Kantigkeit und Rundung aus. 
+              Auch wenn Mañana groß skaliert schick und erfrischend wirkt, eignet sie sich durch fehlendes Kerning noch nicht als Font für Fließtexte.
+              Wer Lust hat, mir beim Fertigstellen von Mañana zu helfen, kann sich gerne melden. :))
+              </h2>
+
 
               <img src="bilder/work/px_weiß.jpg">
               <figcaption>
@@ -887,21 +911,8 @@ const DETAILS = {
               </figcaption>
 
 
-              <img src="bilder/work/px_g.jpg">
-              <figcaption>
-              Grafische Experimente mit dem Displayfont Pixie
-              </figcaption>
 
 
-
-              <div class="image-2">
-              <div> 
-                <img src="bilder/work/px_schwarz.png">
-              </div>
-              <div> 
-                <img src="bilder/work/px_kranich.png">
-              </div>
-              </div>
 
 
               </div>`
@@ -1688,6 +1699,138 @@ const DETAILS = {
               <figcaption>
               verregnetes Osaka
               </figcaption>
+
+
+              </div>`
+      },
+
+      'KDK': {
+        title: 'KDK Open Air',
+        html: `<div class="index-detail">
+
+              <img src="bilder/work/kdk_mockup2.jpg">
+                <figcaption>
+              Lineup des KDK Open Air 2026
+              </figcaption>
+
+              <h2>
+              Uralte Tempel, Seven Eleven, riesige bunte Schmetterlinge, Wolkenkratzer, Männer in Anzügen, leise Metro. Meine kurze Reise durch Japan war vor allem durch Gegensätze geprägt. Mich faszinieren die Menschen und ihr Zusammenlenben, aber auch die Natur, deren Lebewesen und die Religion, die sie verehrt. 
+              </h2>
+
+
+              <img src="bilder/work/kdk_mockup_mobile.jpg">
+                <figcaption>
+              Umland von Hiroshima, gesehen von Miyajima <br>
+              </figcaption>
+
+                            
+              <img src="bilder/work/kdk_mockup3.jpg">
+                <figcaption>
+              Pärchen, Osaka
+              </figcaption>
+
+
+              <img src="bilder/work/kdk_mockup1.jpg">
+                <figcaption>
+              Pärchen, Osaka
+              </figcaption>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>`
+      },
+
+      'ZM': {
+        title: 'Pflanzen, ich',
+        html: `<div class="index-detail">
+
+              <img src="bilder/work/zm14.jpg">
+                <figcaption>
+              Tradescantia zebrina, Nahaufnahme der Blattunterseite (Pflanzenblätter sind bei ausreichend Licht lilafarben: Wie wird dann noch Fotosynthese betrieben?)
+              </figcaption>
+
+
+              <h2>
+              Warum Geld für ein Mikroskop ausgeben, wenn man eine Kamera zuhause hat? Die folgenden Fotos sind dadurch entstanden, dass ich mein 18-55mm Canon Objektiv umgedreht an meinen Kamera-Body gehalten und so fotografiert habe. Um die verschiedenen Zellschichten (insbesondere die enthaltenen Stomata) der Pflanzenblätter (Tradescantia zebrina, Tradescantia pallida) sichtbar zu machen, habe ich diese mit der Unterseite nach oben auf die Taschenlampe meines Handys gelegt.
+              </h2>
+
+
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/zm5.jpg">
+                <figcaption>
+                Tradescantia pallida                
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/zm7.jpg">
+              </div>
+              </div>
+
+              <img src="bilder/work/zm3.jpg">
+              <figcaption>
+              Sichtbare Spaltöffnungen (Stomata) durch die Gasaustausch stattfindet               
+              </figcaption>
+
+              <h2>
+              Auch meinen Körper habe ich abgelichtet. Mir war vorher nicht bewusst gewesen, wie sehr sich unsere Haut abhängig von der jeweiligen Körperstelle verändert. Als nächstes schaue ich eventuell Obst oder ein wenig Seewasser an. :))
+              </h2>
+
+                            
+              <div class="image-2">
+              <div> 
+                <img src="bilder/work/zm2.jpg">
+                <figcaption>
+                Haut an meinem Bein               
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/zm12.jpg">
+                <figcaption>
+                ... :)             
+                </figcaption>
+              </div>
+              </div>
+
+
+              <img src="bilder/work/zm15.jpg">
+              <figcaption>
+              Zähnchen
+              </figcaption>
+
+
+              <div class="image-3">
+              <div> 
+                <img src="bilder/work/zm11.jpg">
+                <figcaption>
+                Haut um mein Auge              
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/zm8.jpg">
+                <figcaption>
+                mein Haar!            
+                </figcaption>
+              </div>
+              <div> 
+                <img src="bilder/work/zm10.jpg">
+                <figcaption>
+                Haut in meinem Gesicht          
+                </figcaption>
+              </div>
+              </div>
+
 
 
               </div>`

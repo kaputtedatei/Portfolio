@@ -128,9 +128,10 @@ const timelineData = [
     { id: "PX", year: 2024, categories: ["T"] },
     { id: "PG", year: 2026, categories: ["F", "B"] },
     { id: "ST", year: "2019+", categories: [] },
-    { id: "HH", year: "2026", categories: ["M","B","F","S"] },
+    { id: "HH", year: "2026", categories: ["M","B","S"] },
     { id: "NH", year: "2026", categories: ["F"] },  
-    
+    { id: "KDK", year: "2026", categories: ["W", "B"] },  
+    { id: "ZM", year: "2026", categories: ["F"] },  
   ];
 
 
