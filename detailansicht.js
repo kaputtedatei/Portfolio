@@ -901,10 +901,8 @@ const DETAILS = {
               </div>
 
               <h2>
-              Eine eigene Font entwerfen? Hat jede*r Designer*in mal versucht. Mañana is noch ein Work-in-Progress. 
-              Sie zeichnet sich vor allem durch den starken Kontrast zwischen Kantigkeit und Rundung aus. 
-              Auch wenn Mañana groß skaliert schick und erfrischend wirkt, eignet sie sich durch fehlendes Kerning noch nicht als Font für Fließtexte.
-              Wer Lust hat, mir beim Fertigstellen von Mañana zu helfen, kann sich gerne melden. :))
+              Eine eigene Font entwerfen? Hat jede*r Designer*in mal versucht. Genauso wie Mañana is auch Pixie noch ein Work-in-Progress. 
+              Pixie zeichnet sich vor allem durch die aus Quadraten bestehenden Buchstaben aus, die je nach erwünschter Wirkung aber auch abgerundet werden können. Pixie kann zwar als Displayschrift bereits verwendet werden, jedoch ist die Leserlichkeit noch nicht optimal. Wer Lust hat, mir beim Fertigstellen zu helfen, kann sich gerne melden. :))
               </h2>
 
 
@@ -1311,7 +1309,7 @@ const DETAILS = {
 
 
               <h2>
-              Das Logo des Palmengartens habe ich angelehnt an das aktuelle Logo gestaltet. Die Blätter oder Palmenwedel leiten sich aus dem Namen ab und können sowohl in Kombination mit der Wortmarke als auch alleinstehend verwendet werden. Da es sich bei dem Namen "Palmengarten" um ein relativ langes Wort handelt, bietet es sich an, den Text je nach Anwendung mal horizontal in einer Zeile, mal vertikal mit Umbrüchen als eine Art Turm anzuordnen. Diese Staffelung der Wortmarke spiegelt außerdem die verschiedenen Stockwerke des Urwalds wider.
+              Das Logo des Palmengartens habe ich angelehnt an das aktuelle Logo gestaltet. Die Blätter oder Palmenwedel leiten sich aus dem Namen ab und können sowohl in Kombination mit der Wortmarke als auch alleinstehend verwendet werden. Da es sich bei dem Namen „Palmengarten“ um ein relativ langes Wort handelt, bietet es sich an, den Text je nach Anwendung mal horizontal in einer Zeile, mal vertikal mit Umbrüchen als eine Art Turm anzuordnen. Diese Staffelung der Wortmarke spiegelt außerdem die verschiedenen Stockwerke des Urwalds wider.
               </h2>
 
 
