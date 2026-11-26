@@ -1614,7 +1614,7 @@ const DETAILS = {
               </div>
 
               <h2>
-              Eine Partyreihe an deren Design ich arbeitete war Korken&Klub. Ziel hierbei war es, eine diverse Zielgruppe in den CBE einzuladen und zum gemeinsamen Ansoßen zu motivieren. Auch wenn ziemlich schnell Tags auf dem Plakat landeten, ist es schön es gedruckt zu sehen. <a href="https://www.instagram.com/korkenundklub/" target="_blank" rel="noopener noreferrer"> → K&K Instagram </a> </h2>
+              Eine Partyreihe an deren Design ich arbeitete war Korken&Klub. Ziel hierbei war es, eine diverse Zielgruppe in den CBE einzuladen und zum gemeinsamen Anstoßen zu motivieren. Auch wenn ziemlich schnell auf dem Plakat getagt wurde, ist es schön es gedruckt zu sehen. Projekte wie dieses liegen mir besonders am Herzen, da ich durch mein Design Menschen dazu anregen kann, zusammenzukommen und eine gute Zeit zu verbringen. <a href="https://www.instagram.com/korkenundklub/" target="_blank" rel="noopener noreferrer"> → K&K Instagram </a> </h2>
               </h2>
 
               
