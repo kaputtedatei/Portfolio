@@ -68,7 +68,7 @@ const DETAILS = {
               </h2>
               <h2 style="text-indent: 5em;">
               Durch suchtförderndes Design ziehen uns TikTok, Instagram und Co. oft in endlose Scroll-Schleifen und rauben uns wertvolle Zeit. 
-              Außerdrem erschweren die Verbreitung von Desinformation und der wachsende Einfluss von KI es uns, online Fakten zu erkennen.
+              Außerdem erschweren die Verbreitung von Desinformation und der wachsende Einfluss von KI es uns, online Fakten zu erkennen.
               Die Publikation dient hierbei als Hilfestellung, um den digitalen Raum sicher und reflektiert zu navigieren, und bietet praxisnahe Tipps 
               in den Bereichen Medienkompetenz, Gewohnheitsbildung und Achtsamkeit. Durch Quizze und Persönlichkeitstests werden die Lesenden aktiv 
               eingebunden und interaktive Elemente digitaler Plattformen aufgegriffen.
@@ -90,6 +90,9 @@ const DETAILS = {
               </div>
               <div> 
                 <img src="bilder/work/ba_hand4.jpg">
+                <figcaption>
+                Zwischenseite mit typografischem Experiment <br>
+                </figcaption>
               </div>
               </div>
 
@@ -633,7 +636,7 @@ const DETAILS = {
               gebunden sein. Und das ist auch gut so: Während Fashion-Trends alle 30 Jahre wiederkommen, tun unsere Ressourcen das nicht. 
               </h2>
               <h2 style="text-indent: 5em;">
-              Vintage Revivals ist eine deustche Einzelhandelskette im Bereich Secondhand-Fashion, die sich durch eine vielfältige 
+              Vintage Revivals ist eine deutsche Einzelhandelskette im Bereich Secondhand-Fashion, die sich durch eine vielfältige 
               Auswahl und hohe Qualität der Produkte auszeichnet. Um sich von Erscheinungsbildern vergleichbarer Marken abzuheben, 
               werden in diesem Gestaltungskonzept die Aspekte der Kultur und des Zusammenkommens hervorgehoben. Es wird vermittelt, 
               dass der Kauf von gebrauchter Kleidung nicht nur nachhaltig ist, sondern jedes einzelne Kleidungsstück auch etwas 
@@ -835,7 +838,7 @@ const DETAILS = {
 
               <img src="bilder/work/p_sonnenuntergang.jpg">
                 <figcaption>
-              Sonneuntergang bei Paphos, Westzypern
+              Sonnenuntergang bei Paphos, Westzypern
               </figcaption>
 
 
@@ -1672,7 +1675,7 @@ const DETAILS = {
 
 
               <h2>
-              Uralte Tempel, Seven Eleven, riesige bunte Schmetterlinge, Wolkenkratzer, Männer in Anzügen, leise Metro. Meine kurze Reise durch Japan war vor allem durch Gegensätze geprägt. Mich faszinieren die Menschen und ihr Zusammenlenben, aber auch die Natur, deren Lebewesen und die Religion, die sie verehrt. 
+              Uralte Tempel, Seven Eleven, riesige bunte Schmetterlinge, Wolkenkratzer, Männer in Anzügen, leise Metro. Meine kurze Reise durch Japan war vor allem durch Gegensätze geprägt. Mich faszinieren die Menschen und ihr Zusammenleben, aber auch die Natur, deren Lebewesen und die Religion, die sie verehrt. 
               </h2>
 
               <img src="bilder/work/nh8.jpg">
@@ -1792,7 +1795,7 @@ const DETAILS = {
               </figcaption>
 
               <h2>
-              Auch meinen Körper habe ich abgelichtet. Mir war vorher nicht bewusst gewesen, wie sehr sich unsere Haut abhängig von der jeweiligen Körperstelle verändert. Als nächstes schaue ich eventuell Obst oder ein wenig Seewasser an. :))
+              Auch meinen Körper habe ich abgelichtet. Mir war vorher nicht bewusst gewesen, wie sehr sich unsere Haut abhängig von der jeweiligen Körperstelle verändert. Als nächstes schaue ich mir eventuell Obst oder ein wenig Seewasser an. :))
               </h2>
 
                             
